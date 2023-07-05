@@ -1,7 +1,11 @@
+<script setup lang="ts"></script>
+
 <template>
   <div class="page" id="portfolio">
-    <h2>Services Page</h2>
-    <!-- Content specific to the Services Page -->
+    <div class="text-center">
+      <h1 class="grand_title">PortFolio</h1>
+      <p class="title_description">My recent and currently working projects</p>
+    </div>
   </div>
 </template>
 

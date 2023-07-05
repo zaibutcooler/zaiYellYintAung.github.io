@@ -4,9 +4,9 @@ import SkillsCard from "../components/SkillsCard.vue";
 
 <template>
   <div class="page" id="skills">
-    <div>
-      <h1>Skills</h1>
-      <p>My Overall Capabilities</p>
+    <div class="text-center">
+      <h1 class="grand_title">Skills</h1>
+      <p class="title_description">Overall Capabilities</p>
     </div>
     <div class="flex">
       <div v-for="eachSkill in allSkills" :key="eachSkill.title">

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-// import AboutMeCard from "../components/AboutMeCard.vue";
+import AboutMeCard from "../components/AboutMeCard.vue";
 </script>
 
 <template>
   <div class="page" id="about">
-    <div class="w-full">
-      <h1>About me</h1>
-      <p>My Introduction</p>
+    <div class="text-center">
+      <h1 class="grand_title">About Me</h1>
+      <p class="title_description">A brief introduction to me</p>
     </div>
 
     <div class="flex">
@@ -35,7 +35,6 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AboutMeCard from "../components/AboutMeCard.vue";
 
 export default defineComponent({
   name: "AboutPage",

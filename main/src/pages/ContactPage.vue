@@ -1,7 +1,9 @@
 <template>
   <div class="page" id="contact">
-    <h2>Contact Page</h2>
-    <!-- Content specific to the Contact Page -->
+    <div class="text-center">
+      <h1 class="grand_title">Contact Me</h1>
+      <p class="title_description">Get in touch</p>
+    </div>
   </div>
 </template>
 
