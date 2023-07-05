@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import Qualifications from "../components/Qualifications.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="page" id="portfolio">
@@ -9,7 +7,7 @@ import Qualifications from "../components/Qualifications.vue";
         <h1 class="grand_title">Qualifications</h1>
         <p class="title_description">My Personal Journey</p>
       </div>
-      <Qualifications />
+      <main>Qualifications</main>
       <hr class="mt-60" />
     </section>
   </div>
