@@ -1,10 +1,10 @@
 <template>
-  <div class="page flex items-center" id="home">
-    <div class="part_one w-1/6 bg-slate-500 h-[100vh]">
+  <div class="page flex items-center bg-bg_white" id="home">
+    <div class="part_one w-1/6 h-[100vh]">
       <box-icon type="logo" name="facebook-square"> </box-icon>
       <box-icon type="logo" name="instagram-square"></box-icon>
     </div>
-    <div class="part_two w-3/6 bg-bg_white h-[100vh]">
+    <div class="part_two w-3/6 h-[100vh] pt-60">
       <h1 class="font-bold text-primary text-4xl">Sai Yell Yint Aung</h1>
       <h3 class="text-primary font-semibold">Full-Stack Web Developer</h3>
       <p class="font-thin text-secondary">

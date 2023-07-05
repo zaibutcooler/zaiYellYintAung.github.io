@@ -1,7 +1,18 @@
+<script setup lang="ts">
+import SkillsCard from "../components/SkillsCard.vue";
+</script>
+
 <template>
   <div class="page" id="skills">
-    <h2>Portfolio Page</h2>
-    <!-- Content specific to the Skills Page -->
+    <div>
+      <h1>Skills</h1>
+      <p>My Overall Capabilities</p>
+    </div>
+    <div class="flex">
+      <div v-for="eachSkill in allSkills" :key="eachSkill.title">
+        <SkillsCard :title="eachSkill.title" :skills="eachSkill.skills" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -10,6 +21,16 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "SkillsPage",
+  data() {
+    return {
+      allSkills: [
+        { title: "Frontend Skills", skills: [] },
+        { title: "Backend Skills", skills: [] },
+        { title: "Skills outside of Web Development", skills: [] },
+        { title: "Non-Technical Skills", skills: [] },
+      ],
+    };
+  },
 });
 </script>
 
