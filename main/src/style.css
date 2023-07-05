@@ -1,14 +1,36 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   --header-height: 3rem;
-  --hue: 0;
-  --sat: 0;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: #333333
+  --title-color-dark: #000000
+  --text-color: #757575
+  --body-color: #fafafa
   --container-color: #fff;
+  --body-font:'Poppins', sans-serif;
+
+  --big-size:3.5rem;
+  --h1-size:2.25rem;
+  --h2-size:1.5rem;
+  --h3-size:1.25rem;
+  --normal-size:1rem;
+  --small-size-size:0.875rem;
+  --smaller-size:0.813rem;
+  --tiny-size:0.625rem
+
+  --font-normal:400;
+  --font-medium:500;
+  --font-semi-bold:600;
+  
+
 }
+
+
 
 * {
   margin: 0px;
@@ -25,11 +47,11 @@ button,
 input,
 textarea {
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-size: 1 rem;
 }
 
 body {
   /* background-color: var(--body-color); */
-  background-color: rgb(218, 218, 218);
+  background-color: #fafafa;
   color: var(--text-color);
 }
