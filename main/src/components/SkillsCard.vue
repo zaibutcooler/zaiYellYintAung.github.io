@@ -6,14 +6,17 @@
     </h1>
     <div class="grid grid-cols-2">
       <div v-for="skill in skills" :key="skill.name" class="mb-4">
-        <div class="col-span-1">
-          <i></i>
-          <h2 class="text-primary font-semibold text-md">{{ skill.name }}</h2>
-          <div class="text-secondary text-xs">
-            <p v-if="skill.level === 1">Beginner</p>
-            <p v-else-if="skill.level === 2">Intermediate</p>
-            <p v-else-if="skill.level === 3">Advanced</p>
-            <p v-else-if="skill.level === 4">Expert</p>
+        <div class="col-span-1 flex">
+          <i class="fab fa-github"></i>
+
+          <div>
+            <h2 class="text-primary font-semibold text-md">{{ skill.name }}</h2>
+            <div class="text-secondary text-xs">
+              <p v-if="skill.level === 1">Beginner</p>
+              <p v-else-if="skill.level === 2">Intermediate</p>
+              <p v-else-if="skill.level === 3">Advanced</p>
+              <p v-else-if="skill.level === 4">Expert</p>
+            </div>
           </div>
         </div>
       </div>

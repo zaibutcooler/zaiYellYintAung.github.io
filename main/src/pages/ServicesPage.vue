@@ -24,10 +24,10 @@ export default defineComponent({
   data() {
     return {
       services: [
-        { title: "Database Maintainence", item: "" },
-        { title: "Fully functioning web app", item: "" },
-        { title: "DevOps", item: "" },
-        { title: "Backend Checking", item: "" },
+        { title: "Database Maintainence", item: "db maintain" },
+        { title: "Fully functioning web app", item: "web app" },
+        { title: "DevOps", item: "dops" },
+        { title: "Backend Checking", item: "bkend" },
         { title: "Tech consulting", item: "" },
         { title: "E-com websites", item: "" },
       ],
