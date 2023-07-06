@@ -12,8 +12,8 @@ import ContactForm from "../components/ContactForm.vue";
     <div class="flex">
       <div class="w-2/5 text-center">
         <ContactCard
-          title="Facebook"
-          detail="Sai Yell Yint Aung"
+          title="Gmail"
+          detail="zaiYellYintAung@gmail.com"
           url="https://www.facebook.com/" />
         <ContactCard
           title="Instagram"
@@ -39,8 +39,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.page {
-  height: 100vh;
-}
-</style>
+<style scoped></style>

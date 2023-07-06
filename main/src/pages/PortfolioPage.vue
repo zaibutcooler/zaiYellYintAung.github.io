@@ -28,8 +28,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.page {
-  height: 100vh;
-}
-</style>
+<style scoped></style>

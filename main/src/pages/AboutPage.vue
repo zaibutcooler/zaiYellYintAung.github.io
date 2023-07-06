@@ -15,9 +15,18 @@ import AboutMeCard from "../components/AboutMeCard.vue";
       </div>
       <div class="w-1/2">
         <div class="flex">
-          <AboutMeCard title="Experiences" amount="3+ years" />
-          <AboutMeCard title="Completed" amount="30+ projects" />
-          <AboutMeCard title="Support" amount="Online 24/7" />
+          <AboutMeCard
+            title="Experiences"
+            amount="3+ years"
+            icon="fas fa-briefcase" />
+          <AboutMeCard
+            title="Completed"
+            amount="30+ projects"
+            icon="fas fa-check-circle" />
+          <AboutMeCard
+            title="Support"
+            amount="Online 24/7"
+            icon="fas fa-clock" />
         </div>
 
         <div class="my-6 w-[1000px]">
@@ -49,8 +58,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.page {
-  height: 100vh;
-}
-</style>
+<style scoped></style>

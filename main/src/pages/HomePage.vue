@@ -1,5 +1,5 @@
 <template>
-  <section class="page flex items-center bg-bg_white" id="home">
+  <section class="page flex items-center" id="home">
     <div class="part_one w-1/6 h-[100vh]">
       <box-icon type="logo" name="facebook-square"> </box-icon>
       <box-icon type="logo" name="instagram-square"></box-icon>
@@ -28,8 +28,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.page {
-  height: 100vh;
-}
-</style>
+<style scoped></style>

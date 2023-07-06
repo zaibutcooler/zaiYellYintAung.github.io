@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useStore } from "vuex/types/index.js";
-
 import Header from "./components/Header.vue";
 import HomePage from "./pages/HomePage.vue";
 import AboutPage from "./pages/AboutPage.vue";
@@ -14,7 +12,7 @@ import "boxicons";
 </script>
 
 <template>
-  <div class="main">
+  <div class="bg-bg_white text-primary">
     <Header />
     <content>
       <HomePage />
@@ -29,25 +27,39 @@ import "boxicons";
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "App",
-  computed: {
-    isDarkMode() {
-      const store = useStore();
-      return store.state.isDarkMode;
-    },
-    isShowedDetail() {
-      const store = useStore();
-      return store.state.isShowedDetail;
-    },
-  },
 });
 </script>
 
 <style>
+.page {
+  padding-left: 128px;
+  padding-right: 128px;
+  min-height: 80vh;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 767px) {
+  /* Small screens */
+  .page {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Medium screens */
+  .page {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
 .grand_title {
   font-size: xx-large;
   font-weight: 700;

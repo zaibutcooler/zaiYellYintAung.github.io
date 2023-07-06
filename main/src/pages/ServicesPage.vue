@@ -3,12 +3,12 @@ import SvCard from "../components/SvCard.vue";
 </script>
 
 <template>
-  <section class="page lg:px-32" id="services">
+  <section class="page" id="services">
     <div class="text-center mb-16">
       <h1 class="grand_title">Services</h1>
       <p class="title_description">What I offer</p>
     </div>
-    <div class="grid grid-cols-3">
+    <div class="grid lg:grid-cols-3 grid-cols-2">
       <div v-for="service in services" :key="service.title" class="col-span-1">
         <SvCard :title="service.title" :item="service.item" />
       </div>
@@ -36,8 +36,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.page {
-  height: 100vh;
-}
-</style>
+<style scoped></style>
