@@ -28,6 +28,9 @@ import "boxicons";
 </template>
 
 <style>
+content {
+}
+
 .grand_title {
   font-size: xx-large;
   font-weight: 700;

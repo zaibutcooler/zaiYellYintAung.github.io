@@ -8,8 +8,11 @@ import SkillsCard from "../components/SkillsCard.vue";
       <h1 class="grand_title">Skills</h1>
       <p class="title_description">Overall Capabilities</p>
     </div>
-    <div class="flex">
-      <div v-for="eachSkill in allSkills" :key="eachSkill.title">
+    <div class="grid grid-cols-2">
+      <div
+        v-for="eachSkill in allSkills"
+        :key="eachSkill.title"
+        class="col-span-1">
         <SkillsCard :title="eachSkill.title" :skills="eachSkill.skills" />
       </div>
     </div>

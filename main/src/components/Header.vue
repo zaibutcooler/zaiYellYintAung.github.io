@@ -65,7 +65,7 @@ header {
 }
 
 .navbar__logo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -73,6 +73,7 @@ header {
 
 .navbar__list {
   list-style: none;
+  font-size: 0.875rem;
   font-weight: 600;
   display: flex;
   gap: 3rem;

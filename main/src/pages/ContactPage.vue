@@ -10,7 +10,7 @@ import ContactForm from "../components/ContactForm.vue";
       <p class="title_description">Get in touch</p>
     </div>
     <div class="flex">
-      <div class="w-2/5">
+      <div class="w-2/5 text-center">
         <ContactCard
           title="Facebook"
           detail="Sai Yell Yint Aung"

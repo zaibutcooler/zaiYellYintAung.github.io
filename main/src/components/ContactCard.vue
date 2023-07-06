@@ -1,8 +1,9 @@
 <template>
-  <div class="m-12">
-    <h2>{{ title }}</h2>
-    <p>{{ detail }}</p>
-    <a :href="url">Contact me -></a>
+  <div
+    class="m-3 lg:w-2/5 sm:w-3/4 p-6 bg-snow_white border border-secondary rounded-md">
+    <h2 class="text-center text-md font-semibold mt-3">{{ title }}</h2>
+    <p class="text-center text-secondary text-xs">{{ detail }}</p>
+    <a :href="url" class="text-center text-secondary text-xs">Contact me -></a>
   </div>
 </template>
 

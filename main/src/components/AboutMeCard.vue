@@ -1,8 +1,11 @@
 <template>
-  <div class="m-4">
+  <div
+    class="mr-4 p-6 bg-snow_white border border-secondary rounded-md lg:w-40">
     <i />
-    <h3>{{ title }}</h3>
-    <p>{{ amount }}</p>
+    <h3 class="text-primary text-sm text-center font-semibold my-2">
+      {{ title }}
+    </h3>
+    <p class="text-center text-xs text-secondary">{{ amount }}</p>
   </div>
 </template>
 

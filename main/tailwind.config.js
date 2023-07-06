@@ -6,7 +6,7 @@ export default {
       colors: {
         primary: "#343130",
         secondary: "#B9B5B2",
-        snow_white: "",
+        snow_white: "#fff",
         bg_white: "#FCFAF5",
       },
     },

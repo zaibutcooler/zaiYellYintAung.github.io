@@ -4,7 +4,7 @@ import AboutMeCard from "../components/AboutMeCard.vue";
 
 <template>
   <section class="page" id="about">
-    <div class="text-center pt-10">
+    <div class="text-center pt-20 mb-12">
       <h1 class="grand_title">About Me</h1>
       <p class="title_description">A brief introduction to me</p>
     </div>
@@ -19,10 +19,11 @@ import AboutMeCard from "../components/AboutMeCard.vue";
           <AboutMeCard title="Completed" amount="30+ projects" />
           <AboutMeCard title="Support" amount="Online 24/7" />
         </div>
-        <p>
-          A creative and productive developer who has a ton of knowledges not
-          only in web development, but also in Artificial
-          Intelligent(Ai),Virtual Reality(VR/AR) Development and Web 3.
+
+        <p class="my-6" style="max-width: 1000px; word-break: break-word">
+          A creative and productive developer who has a ton of knowledge not
+          only in web development, but also in Artificial Intelligence (AI),
+          Virtual Reality (VR/AR) Development, and Web 3.
         </p>
         <button
           @click="downloadCV"
