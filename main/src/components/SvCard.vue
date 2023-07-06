@@ -24,7 +24,7 @@ export default defineComponent({
 
 <template>
   <div
-    class="mx-4 lg:w-[320px] md:w-[280px] sm:w-[240px] min-h-[148px] mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
+    class="mx-4 lg:w-[300px] md:w-[260px] sm:w-[240px] min-h-[148px] mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
     <div class="lg:mt-20">
       <i />
     </div>

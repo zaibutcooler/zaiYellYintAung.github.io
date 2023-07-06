@@ -1,6 +1,5 @@
 <template>
-  <div
-    class="m-4 lg:w-[400px] md:w-7/8 bg-snow_white border border-1 p-6 rounded-lg">
+  <div class="m-4 w-[400px] bg-snow_white border border-1 p-6 rounded-lg">
     <h1 class="text-primary text-sm font-bold text-md text-center mb-4">
       {{ title }}
     </h1>
