@@ -2,7 +2,7 @@
   <div class="m-12">
     <h2>{{ title }}</h2>
     <p>{{ detail }}</p>
-    <button>Contact me -></button>
+    <a :href="url">Contact me -></a>
   </div>
 </template>
 

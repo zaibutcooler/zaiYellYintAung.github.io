@@ -1,5 +1,5 @@
 <template>
-  <div class="page flex items-center bg-bg_white" id="home">
+  <section class="page flex items-center bg-bg_white" id="home">
     <div class="part_one w-1/6 h-[100vh]">
       <box-icon type="logo" name="facebook-square"> </box-icon>
       <box-icon type="logo" name="instagram-square"></box-icon>
@@ -17,7 +17,7 @@
       </button>
     </div>
     <div class="part_three w-2/6 bg-neutral-950"></div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

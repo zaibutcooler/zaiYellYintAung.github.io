@@ -1,16 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="page" id="portfolio">
-    <section class="journey section">
-      <div class="text-center">
-        <h1 class="grand_title">Qualifications</h1>
-        <p class="title_description">My Personal Journey</p>
-      </div>
-      <main>Qualifications</main>
-      <hr class="mt-60" />
-    </section>
-  </div>
+  <section class="page" id="portfolio">
+    <div class="text-center">
+      <h1 class="grand_title">Qualifications</h1>
+      <p class="title_description">My Personal Journey</p>
+    </div>
+    <main>Qualifications</main>
+    <hr class="mt-60" />
+  </section>
 </template>
 
 <script lang="ts">

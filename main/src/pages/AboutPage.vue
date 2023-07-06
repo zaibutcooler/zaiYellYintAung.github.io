@@ -3,8 +3,8 @@ import AboutMeCard from "../components/AboutMeCard.vue";
 </script>
 
 <template>
-  <div class="page" id="about">
-    <div class="text-center">
+  <section class="page" id="about">
+    <div class="text-center pt-10">
       <h1 class="grand_title">About Me</h1>
       <p class="title_description">A brief introduction to me</p>
     </div>
@@ -25,12 +25,13 @@ import AboutMeCard from "../components/AboutMeCard.vue";
           Intelligent(Ai),Virtual Reality(VR/AR) Development and Web 3.
         </p>
         <button
+          @click="downloadCV"
           class="bg-primary hover:bg-gray-900 p-24 h-12 w-36 text-bg_white py-2 px-4 rounded">
           Download CV <i></i>
         </button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
@@ -40,6 +41,9 @@ export default defineComponent({
   name: "AboutPage",
   data() {
     return {};
+  },
+  methods: {
+    downloadCV() {},
   },
 });
 </script>

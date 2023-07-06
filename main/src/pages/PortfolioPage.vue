@@ -3,7 +3,7 @@ import PortFolioCard from "../components/PortFolioCard.vue";
 </script>
 
 <template>
-  <div class="page" id="portfolio">
+  <section class="page" id="portfolio">
     <div class="text-center">
       <h1 class="grand_title">PortFolio</h1>
       <p class="title_description">My recent and currently working projects</p>
@@ -17,7 +17,7 @@ import PortFolioCard from "../components/PortFolioCard.vue";
     <div>
       <PortFolioCard title="Title" imgurl="img" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

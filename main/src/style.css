@@ -55,3 +55,7 @@ body {
   background-color: #fafafa;
   color: var(--text-color);
 }
+
+.page{
+  padding-top: 30px;
+}
