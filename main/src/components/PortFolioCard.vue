@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:mx-4 mx-2 lg:w-[300px] md:w-[260px] sm:w-[240px] min-h-[148px] mb-4 lg:mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
+    class="lg:w-[300px] md:w-[260px] sm:w-[240px] min-h-[148px] mb-4 lg:mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
     <div class="lg:mt-20">
       <i />
     </div>

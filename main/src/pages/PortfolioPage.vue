@@ -10,11 +10,11 @@ import projects from "../assets/datas/projects";
       <p class="title_description">My recent and currently working projects</p>
     </div>
     <div class="flex justify-center text-xs md:px-32 lg:px-42 mt-6">
-      <!-- <button
+      <button
         v-for="view in views"
         :key="view"
         :class="[
-          'my-2 md:mx-4 lg:mx-6 lg:p-4  p-3 w-24 sm:mx-2 sm:p-2 sm:w-1/5',
+          'my-2 md:mx-4 lg:mx-6 lg:p-4  p-3 w-24 mx-2 ',
           {
             'bg-primary text-white rounded-lg': selectedView === view,
             'bg-bg_white text-primary': selectedView !== view,
@@ -22,9 +22,9 @@ import projects from "../assets/datas/projects";
         ]"
         @click="selectView(view)">
         {{ view }}
-      </button> -->
+      </button>
     </div>
-    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
+    <div class="grid lg:grid-cols-3 grid-cols-2 gap-2">
       <div
         class="col-span-1"
         v-for="project in displayView(selectedView)"
