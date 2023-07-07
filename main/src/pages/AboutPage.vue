@@ -4,7 +4,7 @@ import AboutMeCard from "../components/AboutMeCard.vue";
 
 <template>
   <section class="page" id="about">
-    <div class="text-center pt-20 mb-16">
+    <div class="text-center mb-16">
       <h1 class="grand_title">About Me</h1>
       <p class="title_description">A brief introduction to me</p>
     </div>

@@ -24,7 +24,7 @@ import projects from "../assets/datas/projects";
         {{ view }}
       </button>
     </div>
-    <div class="grid lg:grid-cols-3 grid-cols-2 gap-2">
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-2 mt-4">
       <div
         class="col-span-1"
         v-for="project in displayView(selectedView)"

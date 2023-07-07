@@ -37,11 +37,11 @@ export default defineComponent({
 
 <style>
 .page {
+  padding-top: 10vh;
   padding-left: 128px;
   padding-right: 128px;
-  min-height: 80vh;
+  min-height: 100vh;
   margin-top: 64px;
-  margin-bottom: 64px;
 }
 
 @media (max-width: 767px) {
