@@ -8,7 +8,7 @@ import SvCard from "../components/SvCard.vue";
       <h1 class="grand_title">Services</h1>
       <p class="title_description">What I offer</p>
     </div>
-    <div class="grid lg:grid-cols-3 grid-cols-2">
+    <div class="grid lg:grid-cols-3 grid-cols-2 gap-2">
       <div v-for="service in services" :key="service.title" class="col-span-1">
         <SvCard :title="service.title" :item="service.item" />
       </div>
