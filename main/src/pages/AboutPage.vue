@@ -16,7 +16,7 @@ import AboutMeCard from "../components/AboutMeCard.vue";
           <!-- Placeholder square -->
         </div>
         <div class="w-full md:w-1/2 pl-0 md:pl-8 mt-8 md:mt-0">
-          <div class="flex flex-col md:flex-row justify-between">
+          <div class="flex md:flex-row justify-between">
             <AboutMeCard
               title="Experiences"
               amount="3+ years"
@@ -34,13 +34,13 @@ import AboutMeCard from "../components/AboutMeCard.vue";
               class="mb-4 md:mb-0" />
           </div>
 
-          <p class="text-base text-gray-600 my-8">
+          <p class="text-base my-8 text-secondary">
             I'm a Full-Stack developer with a passion for creating exceptional
             web experiences. Currently based in Myanmar.
           </p>
           <button
             @click="downloadCV"
-            class="bg-primary hover:bg-gray-900 text-white py-2 px-4 rounded">
+            class="bg-primary hover:bg-gray-900 text-white py-4 text-sm px-4 rounded-xl">
             Download CV <i class="fas fa-download ml-2"></i>
           </button>
         </div>

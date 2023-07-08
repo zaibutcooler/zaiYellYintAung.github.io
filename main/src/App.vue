@@ -48,8 +48,8 @@ export default defineComponent({
 @media (max-width: 767px) {
   /* Small screens */
   .page {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 

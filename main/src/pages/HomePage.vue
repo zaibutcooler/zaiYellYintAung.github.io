@@ -13,8 +13,8 @@
           </p>
           <div class="flex mt-4">
             <button
-              class="bg-primary hover:bg-gray-900 text-white py-2 px-4 rounded">
-              Contact Me
+              class="bg-primary hover:bg-gray-900 text-white py-4 text-sm px-4 rounded-xl">
+              Contact Me<i class="fas fa-light fa-paper-plane mx-2"></i>
             </button>
           </div>
         </div>
