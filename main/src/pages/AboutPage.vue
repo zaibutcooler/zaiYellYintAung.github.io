@@ -4,41 +4,42 @@ import AboutMeCard from "../components/AboutMeCard.vue";
 
 <template>
   <section class="page" id="about">
-    <div class="text-center mb-16">
-      <h1 class="grand_title">About Me</h1>
-      <p class="title_description">A brief introduction to me</p>
-    </div>
-
-    <div class="flex">
-      <div class="w-1/2">
-        <image />
+    <div class="container mx-auto">
+      <div class="text-center mb-18">
+        <h1 class="grand_title">About Me</h1>
+        <p class="title_description">A brief introduction to me</p>
       </div>
-      <div class="w-1/2">
-        <div class="flex">
-          <AboutMeCard
-            title="Experiences"
-            amount="3+ years"
-            icon="fas fa-briefcase" />
-          <AboutMeCard
-            title="Completed"
-            amount="30+ projects"
-            icon="fas fa-check-circle" />
-          <AboutMeCard
-            title="Support"
-            amount="Online 24/7"
-            icon="fas fa-clock" />
-        </div>
 
-        <div class="my-6 w-[1000px]">
-          A creative and productive developer who has a ton of knowledge not
-          only in web development, but also in Artificial Intelligence (AI),
-          Virtual Reality (VR/AR) Development, and Web 3.
+      <div class="flex">
+        <div class="w-1/2">
+          <image />
         </div>
-        <button
-          @click="downloadCV"
-          class="bg-primary hover:bg-gray-900 p-24 h-12 w-36 text-bg_white py-2 px-4 rounded">
-          Download CV <i></i>
-        </button>
+        <div class="w-1/2">
+          <div class="flex">
+            <AboutMeCard
+              title="Experiences"
+              amount="3+ years"
+              icon="fas fa-briefcase" />
+            <AboutMeCard
+              title="Completed"
+              amount="30+ projects"
+              icon="fas fa-check-circle" />
+            <AboutMeCard
+              title="Support"
+              amount="Online 24/7"
+              icon="fas fa-clock" />
+          </div>
+
+          <p class="text-secondary my-4 w-[480px]">
+            I'm a Full-Stack developer with a passion for creating exceptional
+            web experiences. Currently based in Myanmar.
+          </p>
+          <button
+            @click="downloadCV"
+            class="bg-primary hover:bg-gray-900 p-24 h-12 w-36 text-bg_white py-2 px-4 rounded">
+            Download CV <i></i>
+          </button>
+        </div>
       </div>
     </div>
   </section>

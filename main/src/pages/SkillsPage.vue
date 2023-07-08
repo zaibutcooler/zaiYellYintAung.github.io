@@ -5,16 +5,18 @@ import skills from "../assets/datas/skills";
 
 <template>
   <section class="page px-8" id="skills">
-    <div class="text-center">
-      <h1 class="grand_title">Skills</h1>
-      <p class="title_description">Overall Capabilities</p>
-    </div>
-    <div class="md:grid grid-cols-2 md:gap-4 justify-center">
-      <div
-        v-for="eachSkill in allSkills"
-        :key="eachSkill.title"
-        class="flex justify-center md:items-center">
-        <SkillsCard :title="eachSkill.title" :skills="eachSkill.skills" />
+    <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="grand_title">Skills</h1>
+        <p class="title_description">Overall Capabilities</p>
+      </div>
+      <div class="md:grid grid-cols-2 md:gap-4 justify-center">
+        <div
+          v-for="eachSkill in allSkills"
+          :key="eachSkill.title"
+          class="flex justify-center md:items-center">
+          <SkillsCard :title="eachSkill.title" :skills="eachSkill.skills" />
+        </div>
       </div>
     </div>
   </section>

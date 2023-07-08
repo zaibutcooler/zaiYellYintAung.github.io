@@ -2,9 +2,11 @@
 
 <template>
   <section class="page" id="portfolio">
-    <div class="text-center">
-      <h1 class="grand_title">Qualifications</h1>
-      <p class="title_description">My Personal Journey</p>
+    <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="grand_title">Qualifications</h1>
+        <p class="title_description">My Personal Journey</p>
+      </div>
     </div>
   </section>
 </template>

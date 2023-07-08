@@ -1,29 +1,8 @@
 <template>
-  <section class="page flex items-center">
-    <div class="container mx-auto">
+  <section class="hpage flex items-center">
+    <div class="container mx-auto sm:pt-8">
       <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-        <div class="col-span-1 md:col-span-2">
-          <div class="social-links flex justify-start items-center space-x-4">
-            <div>
-              <div class="my-4">
-                <a href="#" class="social-icon">
-                  <box-icon type="logo" name="facebook-square"></box-icon>
-                </a>
-              </div>
-              <div class="my-4">
-                <a href="#" class="social-icon">
-                  <box-icon type="logo" name="instagram-square"></box-icon>
-                </a>
-              </div>
-              <div class="my-4">
-                <a href="#" class="social-icon">
-                  <box-icon type="logo" name="facebook-square"></box-icon>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-span-1 md:col-span-6">
+        <div class="col-span-1 md:col-span-8">
           <h1 class="text-2xl md:text-4xl font-bold text-primary">
             Sai Yell Yint Aung
           </h1>
@@ -40,6 +19,26 @@
           </div>
         </div>
         <div class="col-span-1 md:col-span-3 bg-neutral-950"></div>
+        <div class="col-span-1 md:col-span-1">
+          <div
+            class="social-links flex flex-wrap justify-start items-center space-x-3">
+            <div class="md:my-4 ml-3">
+              <a href="https://www.linkedin.com/" class="social-icon">
+                <i class="fab fa-linkedin text-2xl"></i>
+              </a>
+            </div>
+            <div class="md:my-4">
+              <a href="https://github.com/zaiYellYintAung" class="social-icon">
+                <i class="fab fa-github text-2xl"></i>
+              </a>
+            </div>
+            <div class="md:my-4">
+              <a href="https://twitter.com" class="social-icon">
+                <i class="fab fa-twitter text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -54,7 +53,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.page {
+.hpage {
   height: 100vh;
   padding: 0 1rem;
 }
@@ -64,7 +63,7 @@ export default defineComponent({
 }
 
 .social-icon {
-  @apply inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300;
+  @apply inline-flex items-center justify-center w-10 h-10 rounded-full bg-bg_white text-primary hover:bg-gray-300;
 }
 
 .bg-neutral-950 {
