@@ -1,22 +1,47 @@
 <template>
-  <section class="page flex items-center" id="home">
-    <div class="part_one w-1/6 h-[100vh]">
-      <box-icon type="logo" name="facebook-square"> </box-icon>
-      <box-icon type="logo" name="instagram-square"></box-icon>
+  <section class="page flex items-center">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+        <div class="col-span-1 md:col-span-2">
+          <div class="social-links flex justify-start items-center space-x-4">
+            <div>
+              <div class="my-4">
+                <a href="#" class="social-icon">
+                  <box-icon type="logo" name="facebook-square"></box-icon>
+                </a>
+              </div>
+              <div class="my-4">
+                <a href="#" class="social-icon">
+                  <box-icon type="logo" name="instagram-square"></box-icon>
+                </a>
+              </div>
+              <div class="my-4">
+                <a href="#" class="social-icon">
+                  <box-icon type="logo" name="facebook-square"></box-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h1 class="text-2xl md:text-4xl font-bold text-primary">
+            Sai Yell Yint Aung
+          </h1>
+          <h3 class="text-primary font-semibold">Full-Stack Web Developer</h3>
+          <p class="text-secondary mt-4">
+            I'm a Full-Stack developer with a passion for creating exceptional
+            web experiences. Currently based in Myanmar.
+          </p>
+          <div class="flex mt-4">
+            <button
+              class="bg-primary hover:bg-gray-900 text-white py-2 px-4 rounded">
+              Contact Me
+            </button>
+          </div>
+        </div>
+        <div class="col-span-1 md:col-span-3 bg-neutral-950"></div>
+      </div>
     </div>
-    <div class="part_two w-3/6 h-[100vh] pt-60">
-      <h1 class="font-bold text-primary text-4xl">Sai Yell Yint Aung</h1>
-      <h3 class="text-primary font-semibold">Full-Stack Web Developer</h3>
-      <p class="font-thin text-secondary">
-        I'm mainly a Full-Stack developer currently living in Myanmar which is
-        known as Burma
-      </p>
-      <button
-        class="bg-primary hover:bg-gray-900 p-24 h-12 w-36 text-bg_white py-2 px-4 rounded">
-        Contact Me!
-      </button>
-    </div>
-    <div class="part_three w-2/6 bg-neutral-950"></div>
   </section>
 </template>
 
@@ -28,4 +53,21 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.page {
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.social-icon {
+  @apply inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300;
+}
+
+.bg-neutral-950 {
+  @apply bg-gray-900;
+}
+</style>

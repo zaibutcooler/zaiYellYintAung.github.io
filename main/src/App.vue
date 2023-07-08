@@ -13,6 +13,7 @@ import "boxicons";
 
 <template>
   <div class="bg-bg_white text-primary">
+    <div id="home"></div>
     <Header />
     <content>
       <HomePage />
@@ -38,8 +39,8 @@ export default defineComponent({
 <style>
 .page {
   padding-top: 10vh;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 120px;
+  padding-right: 120px;
   min-height: 100vh;
   margin-top: 64px;
 }

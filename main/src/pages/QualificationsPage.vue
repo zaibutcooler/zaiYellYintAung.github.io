@@ -6,8 +6,6 @@
       <h1 class="grand_title">Qualifications</h1>
       <p class="title_description">My Personal Journey</p>
     </div>
-    <main>Qualifications</main>
-    <hr class="mt-60" />
   </section>
 </template>
 
@@ -19,6 +17,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

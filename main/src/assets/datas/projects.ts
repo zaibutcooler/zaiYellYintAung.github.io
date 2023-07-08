@@ -59,26 +59,7 @@ const projects = [
     url: "",
     icon: "",
   },
-  {
-    title: "Recipe Finder App",
-    description:
-      "A mobile app project that helps users find and discover new recipes based on their preferences, dietary restrictions, and available ingredients.",
-    date: "February 18, 2024",
-    photo: "[Placeholder image URL]",
-    projectType: "mobile",
-    url: "",
-    icon: "",
-  },
-  {
-    title: "E-learning Platform",
-    description:
-      "A web application project focused on building an e-learning platform that offers online courses, quizzes, progress tracking, and user interaction through forums.",
-    date: "April 7, 2024",
-    photo: "[Placeholder image URL]",
-    projectType: "web",
-    url: "",
-    icon: "",
-  },
+
   {
     title: "Accounting Software",
     description:
