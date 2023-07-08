@@ -5,7 +5,7 @@ import SvCard from "../components/SvCard.vue";
 <template>
   <section class="pagex" id="services">
     <div class="container mx-auto">
-      <div class="text-center mb-16">
+      <div class="text-center">
         <h1 class="grand_title">Services</h1>
         <p class="title_description">What I offer</p>
       </div>

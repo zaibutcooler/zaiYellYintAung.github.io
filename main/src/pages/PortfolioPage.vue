@@ -12,7 +12,7 @@ import projects from "../assets/datas/projects";
           My recent and currently working projects
         </p>
       </div>
-      <div class="flex justify-center text-xs md:px-32 lg:px-42 mt-6">
+      <div class="flex justify-center text-xs md:px-32 lg:px-42 mb-4">
         <button
           v-for="view in views"
           :key="view"

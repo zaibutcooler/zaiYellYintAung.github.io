@@ -10,34 +10,38 @@ import AboutMeCard from "../components/AboutMeCard.vue";
         <p class="title_description">A brief introduction to me</p>
       </div>
 
-      <div class="flex">
-        <div class="w-1/2">
-          <image />
+      <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-1/2 flex justify-center items-center">
+          <div class="w-72 h-72 bg-gray-300 rounded-lg"></div>
+          <!-- Placeholder square -->
         </div>
-        <div class="w-1/2">
-          <div class="flex">
+        <div class="w-full md:w-1/2 pl-0 md:pl-8 mt-8 md:mt-0">
+          <div class="flex flex-col md:flex-row justify-between">
             <AboutMeCard
               title="Experiences"
               amount="3+ years"
-              icon="fas fa-briefcase" />
+              icon="fas fa-briefcase"
+              class="mb-4 md:mb-0" />
             <AboutMeCard
               title="Completed"
               amount="30+ projects"
-              icon="fas fa-check-circle" />
+              icon="fas fa-check-circle"
+              class="mb-4 md:mb-0" />
             <AboutMeCard
               title="Support"
               amount="Online 24/7"
-              icon="fas fa-clock" />
+              icon="fas fa-clock"
+              class="mb-4 md:mb-0" />
           </div>
 
-          <p class="text-secondary my-4 w-[480px]">
+          <p class="text-base text-gray-600 my-8">
             I'm a Full-Stack developer with a passion for creating exceptional
             web experiences. Currently based in Myanmar.
           </p>
           <button
             @click="downloadCV"
-            class="bg-primary hover:bg-gray-900 p-24 h-12 w-36 text-bg_white py-2 px-4 rounded">
-            Download CV <i></i>
+            class="bg-primary hover:bg-gray-900 text-white py-2 px-4 rounded">
+            Download CV <i class="fas fa-download ml-2"></i>
           </button>
         </div>
       </div>
@@ -54,9 +58,9 @@ export default defineComponent({
     return {};
   },
   methods: {
-    downloadCV() {},
+    downloadCV() {
+      // Add your logic to handle the CV download
+    },
   },
 });
 </script>
-
-<style scoped></style>

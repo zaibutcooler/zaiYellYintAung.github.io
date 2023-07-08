@@ -39,8 +39,8 @@ export default defineComponent({
 <style>
 .page {
   padding-top: 10vh;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 116px;
+  padding-right: 116px;
   min-height: 100vh;
   margin-top: 64px;
 }
@@ -67,5 +67,7 @@ export default defineComponent({
 }
 .title_description {
   font-size: smaller;
+  margin-bottom: 30px;
+  color: #b9b5b2;
 }
 </style>

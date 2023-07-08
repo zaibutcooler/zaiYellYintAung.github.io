@@ -25,7 +25,7 @@ export default defineComponent({
 
 <template>
   <div
-    class="lg:mx-4 mx-2 lg:w-[300px] md:w-[260px] sm:w-[240px] min-h-[148px] mb-4 lg:mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
+    class="lg:mx-4 mx-2 lg:w-[300px] md:w-[260px] sm:w-[240px] min-h-[180px] mb-4 lg:mb-8 p-6 bg-snow_white border border-secondary rounded-md flex flex-col justify-between">
     <h3 class="font-semibold text-sm">{{ item.title }}</h3>
     <div>
       <button class="text-xs text-secondary" @click="showDetail()">
