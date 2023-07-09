@@ -1,5 +1,5 @@
 <template>
-  <div class="footer border border-t color-bg_white">
+  <div class="footer border border-t color-bg_white mt-8">
     <h1 class="text-3xl font-semibold my-4 text-center">Zai</h1>
     <div class="text-center my-2">
       <div class="flex font-semibold text-xs justify-center">

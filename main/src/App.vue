@@ -21,7 +21,7 @@ import "boxicons";
       <SkillsPage />
       <ServicesPage />
       <PortfolioPage />
-      <QualificationsPage />
+      <!-- <QualificationsPage /> -->
       <ContactPage />
     </content>
     <Footer />
