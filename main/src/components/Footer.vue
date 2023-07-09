@@ -8,9 +8,9 @@
         <a href="#services" class="mx-4">Services</a>
       </div>
       <div class="flex justify-center text-xl my-3">
-        <a href="#"><i class="fab fa-instagram mx-4"></i></a>
-        <a href="#"><i class="fab fa-facebook mx-4"></i></a>
-        <a href="#"><i class="fab fa-linkedin mx-4"></i></a>
+        <a :href="instagram"><i class="fab fa-instagram mx-4"></i></a>
+        <a :href="facebook"><i class="fab fa-facebook mx-4"></i></a>
+        <a :href="linkedIn"><i class="fab fa-linkedin mx-4"></i></a>
       </div>
       <p class="text-xs mt-2">&copy; 2023 Your Company. All rights reserved.</p>
     </div>
@@ -19,9 +19,17 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import links from "../assets/datas/links";
 
 export default defineComponent({
   name: "Footer",
+  data() {
+    return {
+      instagram: links.instagram,
+      facebook: links.facebook,
+      linkedIn: links.linkedIn,
+    };
+  },
 });
 </script>
 

@@ -14,7 +14,7 @@ import SvCard from "../components/SvCard.vue";
           v-for="service in services"
           :key="service.title"
           class="col-span-1">
-          <SvCard :title="service.title" :item="service.item" />
+          <SvCard :service="service" />
         </div>
       </div>
     </div>
@@ -23,19 +23,13 @@ import SvCard from "../components/SvCard.vue";
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import services from "../assets/datas/services";
 
 export default defineComponent({
   name: "ServicesPage",
   data() {
     return {
-      services: [
-        { title: "Database Maintainence", item: "db maintain" },
-        { title: "Fully functioning web app", item: "web app" },
-        { title: "DevOps", item: "dops" },
-        { title: "Backend Checking", item: "bkend" },
-        { title: "Tech consulting", item: "" },
-        { title: "E-com websites", item: "" },
-      ],
+      services: services,
     };
   },
 });

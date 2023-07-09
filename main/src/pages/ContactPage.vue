@@ -16,17 +16,17 @@ import ContactForm from "../components/ContactForm.vue";
             title="Gmail"
             detail="zaiYellYintAung@gmail.com"
             icon="fab fa-google"
-            url="https://www.facebook.com/" />
+            url="#" />
           <ContactCard
             title="Instagram"
             detail="zai_yellyintaung"
             icon="fab fa-instagram"
-            url="https://www.instagram.com/" />
+            :url="instagram" />
           <ContactCard
             title="Discord"
             detail="Zai#6302 "
             icon="fab fa-discord"
-            url="https://discord.com/" />
+            :url="discord" />
         </div>
         <div class="w-full lg:w-3/5">
           <ContactForm />
@@ -38,9 +38,16 @@ import ContactForm from "../components/ContactForm.vue";
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import links from "../assets/datas/links";
 
 export default defineComponent({
   name: "ContactPage",
+  data() {
+    return {
+      discord: links.discord,
+      instagram: links.instagram,
+    };
+  },
 });
 </script>
 

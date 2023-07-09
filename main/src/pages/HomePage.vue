@@ -23,17 +23,17 @@
           <div
             class="social-links flex flex-wrap justify-start items-center space-x-3">
             <div class="md:my-4 ml-3">
-              <a href="https://www.linkedin.com/" class="social-icon">
+              <a :href="linkedIn" class="social-icon">
                 <i class="fab fa-linkedin text-2xl"></i>
               </a>
             </div>
             <div class="md:my-4">
-              <a href="https://github.com/zaiYellYintAung" class="social-icon">
+              <a :href="github" class="social-icon">
                 <i class="fab fa-github text-2xl"></i>
               </a>
             </div>
             <div class="md:my-4">
-              <a href="https://twitter.com" class="social-icon">
+              <a :href="twitter" class="social-icon">
                 <i class="fab fa-twitter text-2xl"></i>
               </a>
             </div>
@@ -46,9 +46,17 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import links from "../assets/datas/links";
 
 export default defineComponent({
   name: "HomePage",
+  data() {
+    return {
+      twitter: links.twitter,
+      github: links.gitGub,
+      linkedIn: links.linkedIn,
+    };
+  },
 });
 </script>
 
