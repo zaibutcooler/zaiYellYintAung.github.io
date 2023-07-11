@@ -14,7 +14,7 @@ import "boxicons";
   <div class="bg-bg_white text-primary">
     <div id="home"></div>
     <Header />
-    <content>
+    <main>
       <HomePage />
       <AboutPage />
       <SkillsPage />
@@ -22,7 +22,7 @@ import "boxicons";
       <PortfolioPage />
       <!-- <QualificationsPage /> -->
       <ContactPage />
-    </content>
+    </main>
     <Footer />
   </div>
 </template>

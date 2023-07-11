@@ -29,17 +29,17 @@
         <div class="text-slate-700 text-[0.56rem]">
           <button
             class="mb-2 flex p-2 border border-slate-300 rounded-lg hover:bg-slate-400 hover:text-snow_white">
-            <span class="mr-3 w-[26px] lg:w-[50px] text-end">Basic</span>
+            <span class="mr-3 w-[50px] text-end">Basic</span>
             <p class="mr-1 w-[86px]">{{ detail.pricing.small }}</p>
           </button>
           <button
             class="mb-2 flex p-2 border border-slate-400 rounded-lg hover:bg-slate-500 hover:text-snow_white">
-            <span class="mr-3 w-[26px] lg:w-[50px] text-end">Standard</span>
+            <span class="mr-3 w-[50px] text-end">Standard</span>
             <p class="mr-1 w-[86px]">{{ detail.pricing.medium }}</p>
           </button>
           <button
             class="mb-2 flex p-2 border border-slate-500 rounded-lg hover:bg-slate-600 hover:text-snow_white">
-            <span class="mr-3 w-[26px] lg:w-[50px] text-end">Premium</span>
+            <span class="mr-3 w-[50px] text-end">Premium</span>
             <p class="mr-1 w-[86px]">{{ detail.pricing.large }}</p>
           </button>
         </div>
