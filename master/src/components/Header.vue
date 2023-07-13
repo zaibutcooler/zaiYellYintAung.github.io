@@ -74,7 +74,7 @@
           </button>
         </div>
       </nav>
-      <nav v-if="isOpen" class="block md:hidden bg-white py-2 rounded-t-md">
+      <nav v-if="isOpen" class="block md:hidden bg-white py-4 rounded-t-md">
         <content>
           <div class="grid grid-cols-3">
             <div

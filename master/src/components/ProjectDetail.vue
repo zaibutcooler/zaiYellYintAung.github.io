@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center bg-black bg-opacity-50 z-50 px-2">
+    class="fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center backdrop-filter backdrop-blur z-50 px-2">
     <div
       class="mt-8 bg-snow_white px-6 pb-6 pt-4 rounded-3xl shadow-md lg:w-[600px] w-[350px] md:w-[500px] min-h-[400px] text-secondary_bold">
       <div class="flex justify-end m-0 p-0">
