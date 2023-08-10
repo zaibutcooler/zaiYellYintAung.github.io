@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
 
 </script>
-
-<main>
-    <div>Navbar</div>
-</main>
+  <nav class="w-full h-12 bg:white text-red-600">
+    
+  </nav>
+  
+  <style>
+    /* Navbar styles */
+  </style>
+  

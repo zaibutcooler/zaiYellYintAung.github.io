@@ -11,7 +11,7 @@ import ContactPage from './pages/contact/ContactPage.svelte';
 
 <section>
     <Navbar/>
-    <main>
+    <main class="bg-[#e4e7ec] text-[#0d0c0d]">
         <HomePage/>
         <AboutPage/>
         <ServicePage/>
@@ -24,7 +24,6 @@ import ContactPage from './pages/contact/ContactPage.svelte';
 </section>
 
 <style>
-  .page{
-    min-height: 100vh;
-  }
+
 </style>
+
