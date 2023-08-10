@@ -9,9 +9,9 @@ import ContactPage from './pages/contact/ContactPage.svelte';
   import Footer from './pages/_components/Footer.svelte';
 </script>
 
-<section>
-    <Navbar/>
-    <main class="bg-[#e4e7ec] text-[#0d0c0d]">
+<section class="scrollbar scrollbar-thumb-rounded-md">
+    <!-- <Navbar/> -->
+    <main>
         <HomePage/>
         <AboutPage/>
         <ServicePage/>

@@ -5,9 +5,13 @@ export default {
     darkMode: "class",
     extend: {
       colors: {
-        bg_white: "#faf9fd",
+        bg_white: "#e4e7ec",
+        snow_white: "#faf9fd",
+        primary: "#cf0e1d",
+        bg_black: "#1E1E1E",
+        super_black: "#101012",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
