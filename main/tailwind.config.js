@@ -5,6 +5,14 @@ export default {
     darkMode: "class",
     extend: {
       colors: {
+        light: {
+          background: "#e4e7ec",
+          text: "#101012",
+        },
+        dark: {
+          background: "#1E1E1E",
+          text: "#101012",
+        },
         bg_white: "#e4e7ec",
         snow_white: "#faf9fd",
         primary: "#cf0e1d",
