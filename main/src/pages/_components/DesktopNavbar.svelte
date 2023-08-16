@@ -2,6 +2,7 @@
   let isAuthenticated = true;
 </script>
 
+<header class="hidden md:block">
 <nav class="bg-snow_white dark:bg-super_black border-b border-gray-100 dark:border-super_black fixed left-0 top-0 w-full">
   <div class="container mx-auto px-4 sm:px-4 lg:px-6">
     <div class="flex items-center justify-between h-14">
@@ -25,3 +26,4 @@
     </div>
   </div>
 </nav>
+</header>

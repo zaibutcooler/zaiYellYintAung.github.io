@@ -1,6 +1,6 @@
 export default {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  darkMode: false,
+  darkMode: true,
   theme: {
     extend: {
       colors: {
