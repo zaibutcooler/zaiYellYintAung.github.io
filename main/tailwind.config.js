@@ -2,7 +2,7 @@
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    darkMode: "class",
+    darkMode: ["class", '[data-mode="dark"]'],
     extend: {
       colors: {
         light: {
