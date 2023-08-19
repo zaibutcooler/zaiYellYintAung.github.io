@@ -17,6 +17,7 @@ export default {
         snow_white: "#faf9fd",
         primary: "#cf0e1d",
         bg_black: "#1E1E1E",
+        border_black: "hsl(0, 0%, 54%)",
         super_black: "#101012",
       },
     },
