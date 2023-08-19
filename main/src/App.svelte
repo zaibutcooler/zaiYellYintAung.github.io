@@ -16,8 +16,8 @@ import ContactPage from './pages/contact/ContactPage.svelte';
     <main class=" bg-bg_white text-super_black dark:bg-bg_black dark:text-bg_white" >
         <HomePage/>
         <AboutPage/>
-        <ServicePage/>
         <SkillsPage/>
+        <ServicePage/>
         <ProjectPage/>
         <ContactPage/>
     </main>
