@@ -13,11 +13,13 @@
       <!-- Menu -->
       <div>
           <div class="flex items-center space-x-4 text-gray-600 dark:text-bg_white">
+            
             <a href="#about" class=" hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">About</a>
             <a href="#skills" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Skills</a>
             <a href="#services" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Services</a>
             <a href="#contact" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Contact</a>
-           
+            <button class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Toggle</button>
+            
             <!-- <a href="/login" class="flex items-center justify-center w-24 bg-black text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Login</a> -->
             <!-- <a href="/register" class="flex items-center justify-center w-24 bg-primary text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Register</a> -->
           </div>

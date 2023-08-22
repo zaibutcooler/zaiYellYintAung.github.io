@@ -1,17 +1,22 @@
 <script>
-  $: dark = false;
+
+  const theme = localStorage.getItem('theme')
+
+
+
+
 
   const handleClick = () => {
-    dark = !dark;
+    if(theme === 'dark'){
+      localStorage.setItem(theme,'dark')
+      document.documentElement.classList.remove('dark')
 
-    if (dark) {
-      document.documentElement.classList.add('dark');
-      window.alert('Dark mode enabled');
-    } else {
-      document.documentElement.classList.remove('dark');
-      window.alert('Light mode enabled');
+    }else{
+      document.documentElement.classList.add('dark')
+
     }
-  };
+
+};
 </script>
 
 <main>

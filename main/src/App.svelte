@@ -5,10 +5,14 @@ import ServicePage from './pages/services/ServicePage.svelte';
 import SkillsPage from './pages/skills/SkillsPage.svelte';
 import ProjectPage from './pages/projects/ProjectPage.svelte';
 import ContactPage from './pages/contact/ContactPage.svelte';
-  import DesktopNavbar from './pages/_components/DesktopNavbar.svelte';
-  import Footer from './pages/_components/Footer.svelte';
-  import MobileNavbar from './pages/_components/MobileNavbar.svelte';
+import DesktopNavbar from './pages/_components/DesktopNavbar.svelte';
+import Footer from './pages/_components/Footer.svelte';
+import MobileNavbar from './pages/_components/MobileNavbar.svelte';
+
 </script>
+
+
+
 
 <section class="">
     <DesktopNavbar/>

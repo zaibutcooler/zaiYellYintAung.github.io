@@ -6,7 +6,7 @@
     <main class="container max-w-full md:max-w-[1000px] px-3 md:px-6 flex flex-col md:flex-row gap-8 ">
         <section class="w-full md:w-3/5 pr-0 md:pr-4">
             <div>
-                <h1 class='text-3xl md:text-4xl font-semibold text-primary mb-6 leading-12'>I'm Zai, Forging a Path of Innovation and Success in Entrepreneurship</h1>
+                <h1 class='text-3xl md:text-4xl font-semibold md:font-bold text-primary mb-6 leading-12'>I'm Zai, Forging a Path of Innovation and Success in Entrepreneurship</h1>
                 <div class="w-[350px] md:hidden bg-white  border h-[350px] mb-6"/>
                 <div class="gap-y-4 leading-6 flex flex-col text-[0.9rem] md:text-base">
                     <p>Welcome to my world of innovation and ambition. I am Zai, a relentless creator hailing from Myanmar, born with the yearning to redefine the boundaries of what's possible. My journey commenced in 2003, and since then, I've embarked on an unwavering odyssey to craft the future through innovation and entrepreneurship.</p>
