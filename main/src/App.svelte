@@ -22,7 +22,7 @@ import MobileNavbar from './pages/_components/MobileNavbar.svelte';
         <AboutPage/>
         <SkillsPage/>
         <ServicePage/>
-        <ProjectPage/>
+        <!-- <ProjectPage/> -->
         <ContactPage/>
     </main>
     <Footer/>
