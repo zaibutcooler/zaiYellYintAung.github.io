@@ -18,7 +18,7 @@
                 Crafting Code and Ventures with Purpose
             </h3>
             <p class="text-sm md:text-base md:pr-6 mb-5 text-bg_white">
-                I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
+                Stepping into the Realm Where Innovation and Purpose Converge. A Visionary Journey of Crafting Code, Cultivating Transformative Ventures, and Illuminating a Path to Redefine the Future.
             </p>
             <button class="w-40 py-3 bg-primary text-bg_white font-semibold rounded-sm hover:text-snow_white" >
                 Contact Me <i class="fas fa-light fa-paper-plane ml-2"></i>
