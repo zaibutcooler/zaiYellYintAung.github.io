@@ -20,9 +20,9 @@ import MobileNavbar from './pages/_components/MobileNavbar.svelte';
     <main class=" bg-bg_white text-super_black dark:bg-bg_black dark:text-bg_white" >
         <HomePage/>
         <AboutPage/>
-        <SkillsPage/>
+        <ProjectPage/>
+        <!-- <SkillsPage/> -->
         <ServicePage/>
-        <!-- <ProjectPage/> -->
         <ContactPage/>
     </main>
     <Footer/>

@@ -26,7 +26,7 @@
             <div class="md:w-full hidden md:block bg-white  border h-[350px] mb-6">
 
             </div>
-            <div class="md:w-full w-[350px] p-6 rounded-2xl border  dark:border-border_black min-h-[320px] mb-6">
+            <div class="md:w-full w-full p-6 rounded-2xl border  dark:border-border_black min-h-[320px] mb-6">
                   <h1 class="font-semibold text-xl  mb-3"><i class="fas fa-graduation-cap w-8"></i>Education</h1>
                   {#each educationDatas as item (item.name)}
                     <div class='p-2  mb-2 rounded-md'>
@@ -41,7 +41,7 @@
                     </div>
                   {/each}
             </div>
-            <div class="md:w-full w-[350px] p-6 rounded-2xl border  dark:border-border_black  min-h-[320px] mb-6">
+            <div class="md:w-full w-full p-6 rounded-2xl border  dark:border-border_black  min-h-[320px] mb-6">
                 <h1 class="font-semibold text-xl  mb-3"><i class="fas fa-briefcase w-8"></i>Work</h1>
                 {#each workDatas as item (item.date)}
                   <div class='p-2  mb-2 rounded-md '>
