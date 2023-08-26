@@ -15,3 +15,7 @@ html {
 body {
   overflow-x: hidden;
 }
+
+.disable-scrollbar {
+  overflow: hidden !important;
+}

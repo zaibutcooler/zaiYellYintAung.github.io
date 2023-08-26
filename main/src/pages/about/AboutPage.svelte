@@ -2,6 +2,17 @@
     import {educationDatas,workDatas} from './../../lib/aboutDatas'
     import {frameworkDatas,languageDatas,databaseDatas} from './../../lib/skillDatas'
     
+    const downloadCV = () => {
+    const cvFileName = 'cv.pdf';
+    const cvFilePath = `/cv.pdf`; // Use a leading slash to access files in the public folder
+    const anchor = document.createElement('a');
+    anchor.href = cvFilePath;
+    anchor.download = cvFileName;
+    anchor.click();
+    anchor.remove();
+}
+
+
 
 
 </script>
@@ -70,7 +81,6 @@
 
         <section class="w-full md:w-2/5 text-snow_white ">
             <div class="md:w-full hidden md:block bg-white  border h-[350px] mb-6">
-
             </div>
             <div class="md:w-full w-full p-6 rounded-2xl border  dark:border-border_black min-h-[320px] mb-6">
                   <h1 class="font-semibold text-xl  mb-3"><i class="fas fa-graduation-cap w-8"></i>Education</h1>
@@ -101,10 +111,8 @@
                       {/if}
                   </div>
                 {/each}
-                <button class="w-full py-2 bg-primary rounded-md mt-2 font-medium">Download CV <i class="fas fa-arrow-down ml-1"></i></button>
+                <button class="w-full py-2 bg-primary rounded-md mt-2 font-medium" on:click={downloadCV}>Download CV <i class="fas fa-arrow-down ml-1"></i></button>
           </div>
-
-
         </section>
 
     </main>
