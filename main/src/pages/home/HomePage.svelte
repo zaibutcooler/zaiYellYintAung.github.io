@@ -1,4 +1,4 @@
-<div id="home" class="flex justify-center items-center w-full min-h-screen pt-0 md:pt-14">
+<div id="home" class="flex justify-center md:items-center items-start w-full min-h-[70vh] md:min-h-screen pt-14">
     <main class="container max-w-full md:max-w-[1000px] px-3 md:px-6 flex flex-col md:flex-row-reverse justify-between ">
         <div class="flex gap-3 md:gap-8">
             <div class="w-[260px] h-[260px] block bg-white "></div>
