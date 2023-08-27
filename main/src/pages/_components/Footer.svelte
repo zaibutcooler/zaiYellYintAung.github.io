@@ -12,11 +12,11 @@
           <a href="#services" class="mx-6 dark:hover:text-snow_white hover:text-super_black">Services</a>
         </div>
         <div class="flex justify-center text-xl my-4">
-          <a href="instagram"><i class="fab fa-instagram hover:text-super_black mx-6  dark:hover:text-snow_white"></i></a>
-          <a href="facebook"><i class="fab fa-facebook hover:text-super_black mx-6  dark:hover:text-snow_white"></i></a>
-          <a href="linkedIn"><i class="fab fa-linkedin hover:text-super_black mx-6  dark:hover:text-snow_white"></i></a>
-          <a href="linkedIn"><i class="fab fa-twitter hover:text-super_black mx-6  dark:hover:text-snow_white"></i></a>
-          <a href="linkedIn"><i class="fab fa-youtube hover:text-super_black mx-6  dark:hover:text-snow_white"></i></a>
+          <a href="instagram"><i class="fab fa-instagram hover:text-super_black mx-6 md:mx-8  dark:hover:text-snow_white"></i></a>
+          <a href="facebook"><i class="fab fa-facebook hover:text-super_black mx-6 md:mx-8  dark:hover:text-snow_white"></i></a>
+          <a href="linkedIn"><i class="fab fa-linkedin hover:text-super_black mx-6 md:mx-8  dark:hover:text-snow_white"></i></a>
+          <a href="linkedIn"><i class="fab fa-twitter hover:text-super_black mx-6 md:mx-8  dark:hover:text-snow_white"></i></a>
+          <a href="linkedIn"><i class="fab fa-youtube hover:text-super_black mx-6 md:mx-8  dark:hover:text-snow_white"></i></a>
 
         </div>
         <p class="text-xs mt-2">&copy; 2023 Unicorn. All rights reserved.</p>

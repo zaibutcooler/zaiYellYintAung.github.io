@@ -1,5 +1,19 @@
 <script>
     import contactData from './../../lib/contactDatas'
+    let copySuccess = false;
+
+
+    const copyText = (text)=>{
+      navigator.clipboard.writeText(text).then(() => {
+        copySuccess = true;
+        setTimeout(() => {
+          copySuccess = false;
+        }, 1000); 
+      })
+    }
+
+
+
 </script>
 
 <div  id="contact" class="flex justify-center w-full min-h-screen pt-14 pb-14">
@@ -12,18 +26,21 @@
 
         <div class='grid-cols-2 grid gap-4 h-full'>
         {#each contactData as data (data.icon)}
-        <div class='p-5  dark:hover:border-bg_white border dark:border-super_black dark:bg-super_black transition-colors duration-300 ease-in-out rounded-md col-span-1 md:h-full' >
+        <section role="button" tabindex="0" on:click={()=>copyText(data.name)} on:keydown={()=>{}} class='p-5 dark:hover:border-bg_white border dark:border-super_black dark:bg-super_black  bg-snow_white font-medium transition-colors duration-300 ease-in-out rounded-md col-span-1 md:h-full' >
             <h1 class="font-semibold text-[1.55rem] w-full  mb-3"><i class={data.icon}/></h1>
-            <p class="text-sm">{data.name}</p>
-        </div>
+            <p class="text-sm mb-2">{data.name}</p>
+            <p class="text-[0.7rem] dark:text-border_black text-gray-500">
+              {data.description}
+            </p>
+        </section >
         {/each}
         </div>
 
             
         </section> 
-        <section class="w-full md:w-1/2  min-h-[420px] p-6 md:p-8 border border-super_black rounded-2xl dark:bg-super_black">
+        <section class="w-full md:w-1/2  min-h-[420px] p-6 md:p-8  bg-snow_white rounded-2xl dark:bg-super_black">
             <div class='mb-8 mt-1 md:mt-0'>
-                <h1 class="text-2xl md:text-3xl font-bold">Get In Touch With Me</h1>
+                <h1 class="text-2xl md:text-3xl font-bold text-super_black dark:text-snow_white">Get In Touch With Me</h1>
             </div>
 
 
@@ -36,7 +53,7 @@
                     type="text"
                     id="firstName"
                     name="firstName"
-                    class="px-3 py-2 border rounded dark:bg-bg_black dark:border-bg_white dark:focus:bg-super_black w-full"
+                    class="px-3 py-2 border rounded dark:bg-bg_black bg-snow_white dark:border-border_black dark:focus:bg-super_black w-full"
                     required
                   />
                 </div>
@@ -48,7 +65,7 @@
                     type="text"
                     id="lastName"
                     name="lastName"
-                    class="px-3 py-2 border rounded dark:bg-bg_black dark:border-bg_white dark:focus:bg-super_black w-full"
+                    class="px-3 py-2 border rounded dark:bg-bg_black bg-snow_white dark:border-border_black dark:focus:bg-super_black w-full"
                     required
                   />
                 </div>
@@ -62,7 +79,7 @@
                   type="email"
                   id="email"
                   name="email"
-                  class="px-3 py-2 border rounded dark:bg-bg_black dark:border-bg_white dark:focus:bg-super_black w-full"
+                  class="px-3 py-2 border rounded dark:bg-bg_black bg-snow_white dark:border-border_black dark:focus:bg-super_black w-full"
                   required
                 />
               </div>
@@ -74,11 +91,11 @@
                   id="message"
                   name="message"
                   rows="4"
-                  class="px-3 py-2 border rounded dark:bg-bg_black dark:border-bg_white dark:focus:bg-super_black w-full h-full"
+                  class="px-3 py-2 border rounded dark:bg-bg_black bg-snow_white dark:border-border_black dark:focus:bg-super_black w-full h-full"
                   required></textarea>
               </div>
               <div class="w-full flex justify-end mt-8 ">
-                <button class="px-4 py-2 rounded-md bg-bg_white dark:bg-super_black text-snow_white border dark:hover:border-snow_white dark:hover:text-snow_white dark:border-super_black transition-colors duration-300 ease-in-out">
+                <button on:click={()=>{}} class="px-4 py-2 rounded-md bg-primary font-medium hover:text-bg_white dark:bg-super_black  dark:text-snow_white border dark:hover:border-snow_white dark:hover:text-snow_white border-bg_white text-snow_white dark:border-super_black transition-colors duration-300 ease-in-out">
                   Send Message
                 </button>
               </div>

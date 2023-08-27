@@ -8,19 +8,19 @@ const contactData = [
   {
     icon: "fab fa-youtube",
     title: "YouTube",
-    name: "Zai",
+    name: "@ooo0zai0ooo",
     description: "Subscribe to my YouTube channel for tech tutorials.",
   },
   {
     icon: "fab fa-instagram",
     title: "Instagram",
-    name: "zai_yellyintaung",
+    name: "@nemui_zai",
     description: "Follow me on Instagram for daily updates.",
   },
   {
     icon: "fab fa-discord",
     title: "Discord",
-    name: "Zai",
+    name: "cringezai",
     description: "Join my Discord server to connect and chat.",
   },
   {
