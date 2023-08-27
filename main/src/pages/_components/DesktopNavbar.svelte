@@ -1,5 +1,31 @@
 <script lang="ts">
   let isAuthenticated = true;
+  $: ()=>{
+    if(localStorage.theme === 'light'){
+      darkMode=false
+    }else{
+      darkMode=true
+    }
+
+  }
+
+  let darkMode = true;
+
+  const toggleTheme = ()=>{
+
+    if(localStorage.theme ==='light'){
+      localStorage.theme = 'dark'
+      darkMode=true
+      document.documentElement.classList.add('dark')
+    }else{
+      localStorage.theme = 'light'
+      darkMode=false
+      document.documentElement.classList.remove('dark')
+    }
+  }
+
+
+
 </script>
 
 <header class="hidden md:block">
@@ -17,11 +43,18 @@
             <a href="#about" class=" hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">About</a>
             <a href="#skills" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Skills</a>
             <a href="#services" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Services</a>
-            <a href="#contact" class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Contact</a>
-            <button class="hidden md:block  hover:text-black dark:hover:text-snow_white pl-6 py-2 rounded-md text-sm font-medium">Toggle</button>
-            
-            <!-- <a href="/login" class="flex items-center justify-center w-24 bg-black text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Login</a> -->
-            <!-- <a href="/register" class="flex items-center justify-center w-24 bg-primary text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Register</a> -->
+            <a href="#contact" class="hidden md:block  hover:text-black dark:hover:text-snow_white px-6 py-2 rounded-md text-sm font-medium">Contact</a>
+            <button on:click={() => toggleTheme()} class="hidden md:flex items-center  bg-bg_white dark:bg-bg_black hover:text-black w-16 h-7 p-0.5 rounded-full border dark:hover:text-snow_white dark:border-white border-gray-500 px-1 py-2 text-sm font-medium">
+              {#if darkMode}
+              <div class=' p-1 rounded-full text-primary text-left w-full '>
+                <i class="fas fa-sun "></i>
+              </div>
+              {:else}
+              <div class='p-1 rounded-full text-primary text-right w-full '>
+                <i class="fas fa-moon "></i>
+                </div>
+              {/if}
+            </button>
           </div>
 
       </div>

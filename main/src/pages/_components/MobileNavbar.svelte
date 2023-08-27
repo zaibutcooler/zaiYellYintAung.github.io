@@ -1,6 +1,31 @@
 <script>
     let isOpen = false;
     
+    let darkMode = true;
+
+    $: ()=>{
+    if(localStorage.theme === 'light'){
+      darkMode=false
+    }else{
+      darkMode=true
+    }
+
+  }
+
+
+const toggleTheme = ()=>{
+
+  if(localStorage.theme ==='light'){
+    localStorage.theme = 'dark'
+    darkMode=true
+    document.documentElement.classList.add('dark')
+  }else{
+    localStorage.theme = 'light'
+    darkMode=false
+    document.documentElement.classList.remove('dark')
+  }
+}
+
     let links = [
       { title: "Home", icon: "fas fa-home", go: "#home" },
       { title: "About", icon: "fas fa-info-circle", go: "#about" },
@@ -35,18 +60,27 @@
           </div>
         {/each}
       </div>
-      <div class="flex justify-end">
+      <div class="flex justify-between px-8 mt-1">
+        <button on:click={() => toggleTheme()} class="flex items-center  bg-bg_white dark:bg-bg_black hover:text-black w-16 h-7 p-0.5 rounded-full border dark:hover:text-snow_white dark:border-white border-gray-500 px-1 py-2 text-sm font-medium">
+          {#if darkMode}
+          <div class=' p-1 rounded-full text-primary text-left w-full '>
+            <i class="fas fa-sun "></i>
+          </div>
+          {:else}
+          <div class='p-1 rounded-full text-primary text-right w-full '>
+            <i class="fas fa-moon "></i>
+            </div>
+          {/if}
+        </button>
         <button on:click={close}>
-          <i class="fas fa-times mr-6 dark:hover:text-snow_white"></i>
+          <i class="fas fa-times dark:hover:text-snow_white"></i>
         </button>
       </div>
       {:else}
-      <div class="flex justify-between px-4 ">
+      <div class="flex justify-between px-4 py-0.5 ">
         <h1 class="dark:hover:text-snow_white">Zai</h1>
         <button on:click={open}><i class="fa-solid fa-compass dark:hover:text-snow_white"></i></button>
       </div>
-
-
       {/if}
     </nav>
   
