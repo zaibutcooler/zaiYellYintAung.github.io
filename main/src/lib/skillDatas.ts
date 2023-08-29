@@ -1,31 +1,31 @@
 export const frameworkDatas = [
   {
-    icon: "nextjs-icon.svg",
+    icon: "nextjs.svg",
     title: "Next.js",
     note: "Proficient in latest Next 13 App Directory.",
   },
   {
-    icon: "svelte-kit-icon.svg",
+    icon: "sveltekit.svg",
     title: "Svelte Kit",
     note: "Skilled in Svelte Kit for web apps.",
   },
   {
-    icon: "django-icon.svg",
+    icon: "django.svg",
     title: "Django",
     note: "Mastered Django for rapid development.",
   },
   {
-    icon: "mern-icon.svg",
+    icon: "react.svg",
     title: "MERN Stack",
     note: "Have great experience with MERN.",
   },
   {
-    icon: "mevn-icon.svg",
+    icon: "vue.svg",
     title: "MEVN Stack",
     note: "Acquainted with MEVN tech stack.",
   },
   {
-    icon: "rails-icon.svg",
+    icon: "rails.svg",
     title: "Ruby on Rails",
     note: "Proficient in Ruby on Rails MVC framework.",
   },
@@ -33,12 +33,12 @@ export const frameworkDatas = [
 
 export const languageDatas = [
   {
-    icon: "javascript-icon.svg",
+    icon: "typescript.svg",
     title: "TypeScript",
     note: "Mastered TypeScript for type safety.",
   },
   {
-    icon: "python-icon.svg",
+    icon: "python.svg",
     title: "Python",
     note: "Have written a tons of apps using python.",
   },
@@ -46,17 +46,17 @@ export const languageDatas = [
 
 export const databaseDatas = [
   {
-    icon: "sql-icon.svg",
+    icon: "sql.svg",
     title: "SQL",
     note: "For complex apps with many relations.",
   },
   {
-    icon: "mongodb-icon.svg",
+    icon: "mongodb.svg",
     title: "MongoDB",
     note: "Used as my primary database for most apps.",
   },
   {
-    icon: "redis-icon.svg",
+    icon: "redis.svg",
     title: "Redis",
     note: "Used Redis for performance based apps.",
   },

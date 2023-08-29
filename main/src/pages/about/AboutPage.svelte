@@ -33,8 +33,9 @@
                                 <h2 class='font-semibold text-base mb-2'>Frameworks</h2>
                                 {#each frameworkDatas as item}
                                  <div class="flex gap-3 mb-3 items-center">
-                                    <div class='w-[35px] h-[35px] rounded-full bg-white '>
-                                    </div>    
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                      </div>
                                     <div>
                                         <h3 class='font-medium'>{item.title}</h3>
                                         <p class='text-[0.6rem] hidden md:block text-border_black'>{item.note}</p>
@@ -46,8 +47,9 @@
                                 <h2 class='font-semibold text-base mb-2'>Languages</h2>
                                 {#each languageDatas as item}
                                 <div class="flex gap-3 mb-3 items-center">
-                                   <div class='w-[35px] h-[35px] rounded-full bg-white '>
-                                   </div>    
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                      </div> 
                                    <div>
                                        <h3 class='font-medium'>{item.title}</h3>
                                        <p class='text-[0.6rem] hidden md:block text-border_black'>{item.note}</p>
@@ -57,8 +59,10 @@
                                 <h2 class='font-semibold text-base mb-2'>Databases</h2>
                                 {#each databaseDatas as item}
                                 <div class="flex gap-3 mb-3 items-center">
-                                   <div class='w-[35px] h-[35px] rounded-full bg-white '>
-                                   </div>    
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                      </div>
+                                
                                    <div>
                                     <h3 class='font-medium'>{item.title}</h3>
                                        <p class='text-[0.6rem] hidden md:block text-border_black'>{item.note}</p>

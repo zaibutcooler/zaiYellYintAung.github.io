@@ -1,6 +1,7 @@
 const services = [
   {
     title: "Frontend Development",
+    subTitle: "Ai Development",
     item: "frontend_dev",
     icon: "fas fa-laptop-code",
     description: [

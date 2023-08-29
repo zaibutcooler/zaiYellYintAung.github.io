@@ -21,6 +21,11 @@ export default {
         super_black: "#101012",
       },
     },
+    variants: {
+      extend: {
+        fill: ["dark"],
+      },
+    },
   },
   plugins: [require("tailwind-scrollbar")],
 };

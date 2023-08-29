@@ -1,27 +1,27 @@
 const projectDatas = [
   {
-    name: "Project A",
-    desc: "A modern web application designed to streamline workflow and boost productivity for teams",
+    name: "Kioku",
+    desc: "Elevate productivity with Kioku. Manage projects, habits, and goals, and journal achievements.",
   },
   {
-    name: "Project B",
-    desc: "An interactive portfolio website showcasing a collection of my latest design projects.",
+    name: "Kazeki",
+    desc: "Kazeki connects freelancers and clients effortlessly. Find jobs or experts for projects in one dynamic platform.",
   },
   {
-    name: "Project C",
-    desc: "A mobile app concept for tracking daily fitness activities and setting fitness goals.",
+    name: "Kenkei",
+    desc: "Kenkei enhances conversations with video calls. Bridge distances for meaningful connections.",
   },
   {
-    name: "Project D",
-    desc: "A creative e-commerce platform that offers unique handmade products from around the world.",
+    name: "Kensa",
+    desc: "Kensa delivers insights from Amazon and more. Turn web data into actionable intelligence.",
   },
   {
-    name: "Project E",
-    desc: "A responsive blog website exploring a wide range of topics related to technology and design.",
+    name: "Haitatsu",
+    desc: "Haitatsu connects sellers, buyers, and local shops. Streamline delivery for products and food.",
   },
   {
     name: "Project F",
-    desc: "An immersive virtual reality experience allowing users to explore a digital art gallery.",
+    desc: "Immerse in artistry via Project F. An immersive VR gallery experience awaits.",
   },
 ];
 
