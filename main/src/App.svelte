@@ -9,12 +9,12 @@ import DesktopNavbar from './pages/_components/DesktopNavbar.svelte';
 import Footer from './pages/_components/Footer.svelte';
 import MobileNavbar from './pages/_components/MobileNavbar.svelte';
 
-
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
   document.documentElement.classList.add('dark')
 } else {
   document.documentElement.classList.remove('dark')
 }
+
 </script>
 
 

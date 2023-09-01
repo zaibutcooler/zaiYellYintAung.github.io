@@ -64,11 +64,11 @@ const toggleTheme = ()=>{
         <button on:click={() => toggleTheme()} class="flex items-center  bg-bg_white dark:bg-bg_black hover:text-black w-16 h-7 p-0.5 rounded-full border dark:hover:text-snow_white dark:border-white border-gray-500 px-1 py-2 text-sm font-medium">
           {#if darkMode}
           <div class=' p-1 rounded-full text-primary text-left w-full '>
-            <i class="fas fa-sun "></i>
+            <i class="fas fa-moon "></i>
           </div>
           {:else}
           <div class='p-1 rounded-full text-primary text-right w-full '>
-            <i class="fas fa-moon "></i>
+            <i class="fas fa-sun "></i>
             </div>
           {/if}
         </button>

@@ -26,13 +26,13 @@
 
         <div class='grid-cols-2 grid gap-4 h-full'>
         {#each contactData as data (data.icon)}
-        <section role="button" tabindex="0" on:click={()=>copyText(data.name)} on:keydown={()=>{}} class='p-5 dark:hover:border-bg_white border dark:border-super_black dark:bg-super_black  bg-snow_white font-medium transition-colors duration-300 ease-in-out rounded-md col-span-1 md:h-full' >
+        <a href={data.to} tabindex="0" on:click={()=>copyText(data.name)} on:keydown={()=>{}} class='p-5 dark:hover:border-bg_white border dark:border-super_black dark:bg-super_black  bg-snow_white font-medium transition-colors duration-300 ease-in-out rounded-md col-span-1 md:h-full' >
             <h1 class="font-semibold text-[1.55rem] w-full  mb-3"><i class={data.icon}/></h1>
-            <p class="text-sm mb-2">{data.name}</p>
+            <p class="text-sm mb-2 truncate">{data.name}</p>
             <p class="text-[0.7rem] dark:text-border_black text-gray-500">
               {data.description}
             </p>
-        </section >
+        </a >
         {/each}
         </div>
 

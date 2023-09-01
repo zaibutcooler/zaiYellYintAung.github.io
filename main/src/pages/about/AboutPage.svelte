@@ -2,15 +2,27 @@
     import {educationDatas,workDatas} from './../../lib/aboutDatas'
     import {frameworkDatas,languageDatas,databaseDatas} from './../../lib/skillDatas'
     
-    const downloadCV = () => {
+const downloadCV = () => {
     const cvFileName = 'cv.pdf';
-    const cvFilePath = `/cv.pdf`; // Use a leading slash to access files in the public folder
+    const cvFilePath = `/cv.pdf`;
     const anchor = document.createElement('a');
     anchor.href = cvFilePath;
     anchor.download = cvFileName;
     anchor.click();
     anchor.remove();
 }
+
+let darkMode = true;
+
+$: ()=>{
+if(localStorage.theme === 'light'){
+  darkMode=false
+  window.alert('light')
+}else{
+  darkMode=true
+  
+}}
+
 </script>
 
 <div  id="about" class="flex justify-center w-full min-h-screen pt-14">
@@ -33,8 +45,8 @@
                                 <h2 class='font-semibold text-base mb-2'>Frameworks</h2>
                                 {#each frameworkDatas as item}
                                  <div class="flex gap-3 mb-3 items-center">
-                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
-                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5 bg-transparent dark:bg-border_black">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class={`w-full h-full  dark:invertSvgColors `}>
                                       </div>
                                     <div>
                                         <h3 class='font-medium'>{item.title}</h3>
@@ -47,8 +59,8 @@
                                 <h2 class='font-semibold text-base mb-2'>Languages</h2>
                                 {#each languageDatas as item}
                                 <div class="flex gap-3 mb-3 items-center">
-                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
-                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5 bg-transparent dark:bg-border_black">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full dark:invert-svg-colors-dark invert-svg-colors-light">
                                       </div> 
                                    <div>
                                        <h3 class='font-medium'>{item.title}</h3>
@@ -59,8 +71,8 @@
                                 <h2 class='font-semibold text-base mb-2'>Databases</h2>
                                 {#each databaseDatas as item}
                                 <div class="flex gap-3 mb-3 items-center">
-                                    <div class="w-[35px] h-[35px] rounded-full p-1.5">
-                                        <img src={`/skills/${item.icon}`} alt="Icon" class="w-full h-full fill-[white] dark:fill-[black]">
+                                    <div class="w-[35px] h-[35px] rounded-full p-1.5 bg-transparent dark:bg-border_black">
+                                        <img src={`/skills/${item.icon}`} alt="Icon" class={`w-full h-full  dark:invertSvgColors `}>
                                       </div>
                                 
                                    <div>
@@ -117,3 +129,21 @@
 
     </main>
 </div>
+
+
+<style>
+  /* Inverted colors for dark mode */
+  .invert-svg-colors-dark {
+    filter: invert(100%);
+  }
+
+  /* Default colors for light mode */
+  .invert-svg-colors-light {
+    filter: invert(0%);
+  }
+
+  .test{
+    background-color: aqua;
+  }
+
+</style>
