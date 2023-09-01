@@ -24,15 +24,25 @@
     <div class='w-full flex flex-col md:flex-row gap-4 h-[370px]'>
 
       <section class="w-full md:w-1/2 ">
-        <div class="dark:bg-bg_black bg-bg_white p-1 rounded-sm w-full">
+        <div class="dark:bg-bg_black bg-bg_white p-1 rounded-sm w-full mb-3">
         <Carousel/>
         </div>
+        <div class="flex gap-4 flex-wrap">
+        {#each item.usedTech as tech}
+          <div>{tech}</div>
+        {/each}
+      </div>
+
       </section>
 
-      <section class="w-full md:w-1/2 p-0  dark:border-border_black rounded-md h-full ">
+      <section class="w-full text-xs md:text-sm md:w-1/2 p-0  dark:border-border_black rounded-md h-full ">
         <div class='w-[50px] h-[50px] rounded-full mb-3 dark:bg-white bg-primary text-super_black dark:text-snow_white'></div>
-        <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left font-semibold'>{item.name}</h1>
-        <p class='text-xs md:text-sm  mb-2 flex-grow h-[70px] text-left whitespace-normal'>An aesthetic app that can manage tasks, notes, goals ,achievements and habit tracking features. I used Next 13 (latest technology) with Tailwind and Next-auth for authentication. I also have ideas to add collaboration features  for larger corporations but I focused on other apps to apply my knowledges.</p>
+        <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left font-semibold text-base md:text-lg'>{item.name}</h1>
+        <p class='  mb-2 flex-grow text-left whitespace-normal'>{item.desc}</p>
+        {#each item.features as feature}
+          <p class="">{feature}</p>
+        {/each}
+
     </section>
 
 
