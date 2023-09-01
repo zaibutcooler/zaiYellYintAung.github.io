@@ -34,7 +34,7 @@
                     <div class='w-[50px] h-[50px] rounded-full mb-3 dark:bg-white bg-primary text-super_black dark:text-snow_white'></div>
                     <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left'>{project.name}</h1>
                     <p class='text-sm mb-2 flex-grow h-[70px] text-left'>{project.desc}</p>
-                    <p class="text-sm flex gap-3 items-center group-hover:text-primary dark:group-hover:text-snow_white"><i class="fa-solid fa-link"/> kazeki.vercel.app </p>
+                    <p class="text-sm text-border_black flex gap-3 items-center group-hover:text-primary dark:group-hover:text-snow_white">See Detail</p>
                 </button>
             {/each}
         </section>

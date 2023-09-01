@@ -27,11 +27,31 @@
         <div class="dark:bg-bg_black bg-bg_white p-1 rounded-sm w-full mb-3">
         <Carousel/>
         </div>
-        <div class="flex gap-4 flex-wrap">
+
+        <div class="flex gap-2 flex-wrap mb-3">
         {#each item.usedTech as tech}
-          <div>{tech}</div>
+          <p class='text-[0.6rem] px-3 py-0 border rounded-full border-border_black'>{tech}</p>
         {/each}
       </div>
+
+      {#each item.link as link}
+      <div class="mb-2 flex gap-2 items-center text-sm">
+        <div class='mr-2 text-lg'>
+          <i class={link.icon}></i>
+        </div>
+        <p>{link.name}</p>
+        <div>
+        <a href={link.to} class="p-1 rounded-full hover:bg-bg_white dark:hover:bg-bg_black text-xs">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+        <div>
+        <button class="p-1 rounded-full hover:bg-bg_white dark:hover:bg-bg_black text-xs">
+          <i class="far fa-copy"></i>
+        </button>
+      </div>
+      </div>
+      {/each}
 
       </section>
 
