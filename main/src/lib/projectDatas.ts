@@ -3,7 +3,15 @@ const projectDatas = [
     name: "Kioku",
     desc: "Elevate productivity with Kioku. Manage projects, habits, and goals, and journal achievements.",
     usedTech: ["Next 13", "Next-Auth", "MongoDB", "Tailwind-CSS"],
-    features: ["Next 13", "Next-Auth", "MongoDB", "Tailwind-CSS"],
+    features: [
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
+    ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
@@ -29,12 +37,14 @@ const projectDatas = [
     ],
 
     features: [
-      "Next 13",
-      "Next-Auth",
-      "Mobile Responsive",
-      "MongoDB",
-      "Tailwind-CSS",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
     ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
@@ -58,7 +68,15 @@ const projectDatas = [
       "Redis",
       "Tailwind-CSS",
     ],
-    features: ['"Video Calls", "Chat", "User Profiles"'],
+    features: [
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
+    ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
@@ -77,7 +95,15 @@ const projectDatas = [
     name: "Kensa",
     desc: "Kensa delivers insights from Amazon and more. Turn web data into actionable intelligence.",
     usedTech: ["Python", "Scrapy", "Machine Learning"],
-    features: ["Data Scraping", "Data Analysis", "Predictive Models"],
+    features: [
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
+    ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
@@ -96,10 +122,14 @@ const projectDatas = [
     desc: "Haitatsu connects sellers, buyers, and local shops. Streamline delivery for products and food.",
     usedTech: ["Ruby on Rails", "React", "Google Maps API"],
     features: [
-      "Delivery Tracking",
-      "Online Marketplace",
-      "Payment Integration",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
     ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
@@ -117,7 +147,15 @@ const projectDatas = [
     name: "Project F",
     desc: "Immerse in artistry via Project F. An immersive VR gallery experience awaits.",
     usedTech: ["Unity", "Oculus Rift"],
-    features: ["Virtual Art Gallery", "Interactive Exhibits", "VR Experience"],
+    features: [
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello buyers, and local.",
+      "Haitatsu connects hello sellers, buyers, and ",
+      "Haitatsu connects sellers, buyers, and local",
+      "Haitatsu connects hello sellers, buyers",
+      "Haitatsu connects hello to sellers, buyers",
+    ],
+    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
         name: "www.kazeki.vercel.app",
