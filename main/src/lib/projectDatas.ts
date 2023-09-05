@@ -4,13 +4,40 @@ const projectDatas = [
     desc: "Elevate productivity with Kioku. Manage projects, habits, and goals, and journal achievements.",
     usedTech: ["Next 13", "Next-Auth", "MongoDB", "Tailwind-CSS"],
     features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
+      "Allows users to mark and record their achievements.",
+      "Users can set their goals within the app.",
+      "Users can manage their tasks and to-do lists effectively.",
+      "Provides tools for tracking and building habits.",
+      "Users can maintain a digital diary within the app",
     ],
+
+    images: [
+      {
+        url: "/image/kioku/one.png",
+        description: "image",
+      },
+      {
+        url: "/image/kioku/two.png",
+        description: "image",
+      },
+      {
+        url: "/image/kioku/three.png",
+        description: "image",
+      },
+      {
+        url: "/image/kioku/four.png",
+        description: "image",
+      },
+      {
+        url: "/image/kioku/five.png",
+        description: "image",
+      },
+      {
+        url: "/image/kioku/six.png",
+        description: "image",
+      },
+    ],
+
     note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
@@ -37,12 +64,42 @@ const projectDatas = [
     ],
 
     features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
+      "Secure access and permissions based on roles.",
+      "Users can offer services and find freelance work.",
+      "Job seekers can apply for Job Listing",
+      "Freelancers can apply for Freelance projects.",
+      "Elegant and modern user interface.",
+      "Works seamlessly mobile devices",
+    ],
+    images: [
+      {
+        url: "/image/kazeki/one.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/two.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/three.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/four.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/five.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/six.png",
+        description: "image",
+      },
+      {
+        url: "/image/kazeki/seven.png",
+        description: "image",
+      },
     ],
     note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
@@ -69,12 +126,30 @@ const projectDatas = [
       "Tailwind-CSS",
     ],
     features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
+      "Enables instant communication in real-time.",
+      "Ensures account security and protection of user data.",
+      "Users can easily add friends within the app.",
+      "Utilizes Redis for enhanced speed and performance",
+      "Prioritizes the security of user accounts and data.",
+      "Fully mobile responsive and well-designed.",
+    ],
+    images: [
+      {
+        url: "/image/kenkei/one.png",
+        description: "image",
+      },
+      {
+        url: "/image/kenkei/two.png",
+        description: "image",
+      },
+      {
+        url: "/image/kenkei/three.png",
+        description: "image",
+      },
+      {
+        url: "/image/kenkei/four.png",
+        description: "image",
+      },
     ],
     note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
@@ -103,6 +178,16 @@ const projectDatas = [
       "Haitatsu connects hello sellers, buyers",
       "Haitatsu connects hello to sellers, buyers",
     ],
+    images: [
+      {
+        url: "/image/chocolate.jpg.png",
+        description: "image",
+      },
+      {
+        url: "/image/chocolate.jpg.png",
+        description: "image",
+      },
+    ],
     note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
       {
@@ -129,31 +214,15 @@ const projectDatas = [
       "Haitatsu connects hello sellers, buyers",
       "Haitatsu connects hello to sellers, buyers",
     ],
-    note: "Please keep in mind that it is not finished yet and not ready for the production state.",
-    link: [
+    images: [
       {
-        name: "www.kazeki.vercel.app",
-        to: "#",
-        icon: "fas fa-globe",
+        url: "/image/chocolate.jpg.png",
+        description: "image",
       },
       {
-        name: "zaiYellYintAung/kazeki-next13",
-        to: "#",
-        icon: "fab fa-github",
+        url: "/image/chocolate.jpg.png",
+        description: "image",
       },
-    ],
-  },
-  {
-    name: "Project F",
-    desc: "Immerse in artistry via Project F. An immersive VR gallery experience awaits.",
-    usedTech: ["Unity", "Oculus Rift"],
-    features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
     ],
     note: "Please keep in mind that it is not finished yet and not ready for the production state.",
     link: [
