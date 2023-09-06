@@ -169,14 +169,14 @@ const projectDatas = [
   {
     name: "Kensa",
     desc: "Kensa delivers insights from Amazon and more. Turn web data into actionable intelligence.",
-    usedTech: ["Python", "Scrapy", "Machine Learning"],
+    usedTech: ["Vue", "Express", "Shadcn-UI", "Puppeteer"],
     features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
+      "Connects sellers, buyers, and locals effortlessly.",
+      "Turns web data into valuable insights.",
+      "Empowers decision-making with actionable intelligence.",
+      "Automates data extraction from various websites.",
+      "Seamlessly integrates with popular technologies.",
+      "Improves efficiency in web data analysis.",
     ],
     images: [
       {
@@ -205,14 +205,19 @@ const projectDatas = [
   {
     name: "Haitatsu",
     desc: "Haitatsu connects sellers, buyers, and local shops. Streamline delivery for products and food.",
-    usedTech: ["Ruby on Rails", "React", "Google Maps API"],
+    usedTech: [
+      "Svelte-kit",
+      "Django",
+      "Google Maps API",
+      "Shadcn-UI",
+      "Next-Auth",
+    ],
     features: [
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello buyers, and local.",
-      "Haitatsu connects hello sellers, buyers, and ",
-      "Haitatsu connects sellers, buyers, and local",
-      "Haitatsu connects hello sellers, buyers",
-      "Haitatsu connects hello to sellers, buyers",
+      "Effortlessly connect sellers, buyers, and local shops.",
+      "Simplify delivery for products and food.",
+      "Enhance the shopping experience for buyers.",
+      "Seamlessly authenticate with Next-Auth.",
+      "Improve efficiency in product and food delivery.",
     ],
     images: [
       {
