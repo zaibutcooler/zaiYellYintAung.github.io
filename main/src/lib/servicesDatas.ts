@@ -5,18 +5,33 @@ const serviceDatas = [
     description:
       "In the world of digital presence, a well-crafted website is essential to attract and engage customers. Our web development service brings your vision to life with modern designs and seamless functionality.",
     services: [
-      { text: " Nice Bro haha 1-page responsive website", plan: "basic" },
-      { text: " Nice Bro haha Basic UI/UX design", plan: "basic" },
-      { text: " Nice Bro haha Contact form integration", plan: "basic" },
-      { text: " Nice Bro haha 3-5 page responsive website", plan: "standard" },
-      { text: " Nice Bro haha Customized UI/UX design", plan: "standard" },
+      { text: "Create an impressive 1-page responsive website", plan: "basic" },
       {
-        text: " Nice Bro haha Contact form with advanced features",
+        text: "Craft a fundamental UI/UX design for a solid foundation",
+        plan: "basic",
+      },
+      {
+        text: "Integrate a user-friendly contact form seamlessly",
+        plan: "basic",
+      },
+      {
+        text: "Elevate your online presence with a comprehensive 3-5 page responsive website",
         plan: "standard",
       },
-      { text: " Nice Bro haha Social media integration", plan: "standard" },
       {
-        text: " Nice Bro haha Fully customized multi-page website",
+        text: "Define your brand with a tailor-made UI/UX design",
+        plan: "standard",
+      },
+      {
+        text: "Enhance user interaction with advanced contact form features",
+        plan: "standard",
+      },
+      {
+        text: "Extend your reach through seamless social media integration",
+        plan: "standard",
+      },
+      {
+        text: "Unleash your vision with a fully customized multi-page website",
         plan: "premium",
       },
     ],
@@ -28,223 +43,235 @@ const serviceDatas = [
     title: "Crafting Intuitive Mobile Apps for Your Business",
     subTitle: "Mobile App Development",
     description:
-      "Capture the mobile market with our top-notch mobile app development service. We design and build apps that cater to user needs while aligning with your business goals.",
+      "Seize the mobile market with our cutting-edge mobile app development service. We conceive and construct apps that cater to user requirements while aligning seamlessly with your business objectives.",
     services: [
       {
-        text: " Nice Bro haha UI/UX design for a user-friendly experience",
+        text: "Craft an intuitive UI/UX design for an exceptional user experience",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Development of core app features",
+        text: "Develop core app features with precision and expertise",
         plan: "basic",
       },
-      { text: " Nice Bro haha Basic testing and bug fixing", plan: "basic" },
       {
-        text: " Nice Bro haha Advanced UI/UX design with animations",
+        text: "Conduct basic testing and meticulous bug fixing",
+        plan: "basic",
+      },
+      {
+        text: "Create advanced UI/UX designs with captivating animations",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Full app development with extended features",
+        text: "Undertake full-scale app development with extended features",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Thorough testing and quality assurance",
+        text: "Perform comprehensive testing and ensure top-tier quality assurance",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Fully customized app design and functionality",
+        text: "Design and develop a fully customized app with tailored functionality",
         plan: "premium",
       },
     ],
     duration: "6 weeks",
     type: "Mobile Development",
-    note: "Cross-platform compatibility for wider reach.",
-  }, //done
+    note: "Cross-platform compatibility for broader reach.",
+  },
   {
     title: "Enhance User Interaction with Elegant UI/UX Designs",
     subTitle: "UI/UX Design",
     description:
-      "User experience is paramount. Our UI/UX design service focuses on creating interfaces that not only look captivating but also provide seamless user journeys, resulting in happy and loyal users.",
+      "User experience takes precedence in all that we do. Our UI/UX design service is dedicated to crafting interfaces that not only captivate the eye but also guide users through seamless journeys, resulting in delighted and loyal users.",
     services: [
       {
-        text: " Nice Bro haha Advanced user-centered design concepts",
+        text: "Explore advanced user-centered design concepts to elevate your interface",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Customized UI components and animations",
+        text: "Tailor UI components and animations to match your unique brand identity",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha User journey mapping and optimization",
+        text: "Map and optimize user journeys for a streamlined experience",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Comprehensive user research and analysis",
+        text: "Conduct comprehensive user research and in-depth analysis for actionable insights",
         plan: "premium",
       },
       {
-        text: " Nice Bro haha Personalized UI/UX strategy for target audience",
+        text: "Devise a personalized UI/UX strategy tailored to your target audience",
         plan: "premium",
       },
       {
-        text: " Nice Bro haha Usability testing and feedback implementation",
+        text: "Implement usability testing and incorporate valuable feedback into the design",
         plan: "premium",
       },
       {
-        text: " Nice Bro haha Continuous design refinement based on data",
+        text: "Refine designs continuously based on data-driven insights for lasting excellence",
         plan: "premium",
       },
     ],
     duration: "3 weeks",
     type: "UI/UX Design",
-    note: "Iterative design process for optimal results.",
-  }, //done
+    note: "Embrace an iterative design process for optimal and sustainable outcomes.",
+  },
   {
     title: "Launching Your Online Store with E-Commerce Expertise",
     subTitle: "E-commerce Platform Development",
     description:
-      "Embark on your e-commerce journey with confidence. Our e-commerce solution service covers everything from product showcasing to secure payment gateways, empowering your business to thrive online.",
+      "Embark on your e-commerce journey with confidence. Our e-commerce solution service covers everything from setting up and managing your product catalog to implementing secure payment gateways, empowering your business to thrive in the online marketplace.",
     services: [
       {
-        text: " Nice Bro haha Product catalog setup and management",
-        plan: "basic",
-      },
-      { text: " Nice Bro haha Basic e-commerce website design", plan: "basic" },
-      {
-        text: " Nice Bro haha Integration of essential payment methods",
+        text: "Establish and manage your product catalog with ease and precision",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Advanced product categorization and search",
+        text: "Design a basic e-commerce website that aligns with your brand",
+        plan: "basic",
+      },
+      {
+        text: "Integrate essential payment methods for seamless transactions",
+        plan: "basic",
+      },
+      {
+        text: "Implement advanced product categorization and search functionality",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Customized e-commerce platform design",
+        text: "Craft a customized e-commerce platform design tailored to your brand's identity",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Integration of multiple payment gateways",
+        text: "Incorporate multiple payment gateways to offer flexibility to your customers",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Comprehensive product recommendation system",
+        text: "Create a comprehensive product recommendation system to enhance user experience",
         plan: "premium",
       },
     ],
     duration: "5 weeks",
-    type: "E-commerce Platform Development",
-    note: "Scalable architecture for future growth.",
-  }, //done
+    type: "Web Development",
+    note: "Build on a scalable architecture to support future growth and expansion.",
+  },
   {
     title: "AI Development for Intelligent Solutions",
     subTitle: "AI Development",
     description:
-      "Leverage the power of AI to create smart applications that automate processes, analyze data, and make informed decisions. Our AI development service transforms your ideas into intelligent solutions.",
+      "Harness the potential of AI to craft intelligent applications that streamline processes, analyze data, and make well-informed decisions. Our AI development service translates your concepts into intelligent solutions.",
     services: [
       {
-        text: " Nice Bro haha Consultation and AI solution design",
+        text: "Offering consultation and designing AI solutions that suit your needs",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Basic AI algorithm implementation",
+        text: "Implementing basic AI algorithms to kickstart your project",
         plan: "basic",
       },
-      { text: " Nice Bro haha Data preprocessing and training", plan: "basic" },
       {
-        text: " Nice Bro haha Advanced AI model architecture design",
+        text: "Handling data preprocessing and training to prepare your AI models",
+        plan: "basic",
+      },
+      {
+        text: "Designing advanced AI model architectures for robust performance",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Custom AI solution development",
+        text: "Developing custom AI solutions tailored to your unique requirements",
         plan: "standard",
       },
-      { text: " Nice Bro haha Fine-tuning and optimization", plan: "standard" },
       {
-        text: " Nice Bro haha Comprehensive AI strategy and implementation",
+        text: "Fine-tuning and optimizing AI models for optimal results",
+        plan: "standard",
+      },
+      {
+        text: "Crafting a comprehensive AI strategy and implementing it effectively",
         plan: "premium",
       },
     ],
     duration: "8 weeks",
     type: "AI Development",
-    note: "Custom AI algorithms tailored to your needs.",
-  }, //done
+    note: "Crafting custom AI algorithms to precisely meet your specific needs.",
+  },
   {
     title: "Web Scraping Services for Data Retrieval",
     subTitle: "Web Scraping",
     description:
-      "Access valuable data from websites efficiently with our web scraping services. We gather and deliver the information you need, empowering your business with actionable insights.",
+      "Efficiently access valuable data from websites with our web scraping services. We specialize in gathering and delivering the information you require, providing your business with actionable insights.",
     services: [
       {
-        text: " Nice Bro haha Target website analysis and scraping strategy",
+        text: "Conduct in-depth analysis of target websites and develop scraping strategies",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Basic data extraction and formatting",
+        text: "Perform basic data extraction and format it for usability",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Data delivery in a usable format",
+        text: "Deliver data in a user-friendly and actionable format",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Advanced web scraping techniques",
+        text: "Utilize advanced web scraping techniques for comprehensive data retrieval",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Personalized data aggregation and correlation",
+        text: "Aggregate and correlate data tailored to your specific needs",
         plan: "premium",
       },
       {
-        text: " Nice Bro haha Real-time data retrieval and updates",
+        text: "Ensure real-time data retrieval and updates to keep you informed",
         plan: "premium",
       },
       {
-        text: " Nice Bro haha Automated data delivery pipelines",
+        text: "Establish automated data delivery pipelines for seamless information flow",
         plan: "premium",
       },
     ],
     duration: "2 weeks",
-    type: "Web Scraping",
-    note: "Ethical and efficient data extraction practices.",
-  }, //done
+    type: "Web Development",
+    note: "Commitment to ethical and efficient data extraction practices.",
+  },
   {
     title: "Building Machine Learning Models for Predictive Insights",
     subTitle: "Machine Learning Models",
     description:
-      "Make sense of your data with machine learning models. Our service develops predictive models that uncover patterns, trends, and insights, enabling you to make informed decisions.",
+      "Unravel the potential within your data using machine learning models. Our service specializes in crafting predictive models that unveil hidden patterns, trends, and insights, equipping you with the knowledge to make informed decisions.",
     services: [
       {
-        text: " Nice Bro haha Data analysis and feature selection",
+        text: "Conduct data analysis and select relevant features for model development",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Basic machine learning algorithm implementation",
+        text: "Implement basic machine learning algorithms to kickstart your project",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Model training and initial performance evaluation",
+        text: "Train models and perform initial performance evaluations for insights",
         plan: "basic",
       },
       {
-        text: " Nice Bro haha Advanced machine learning model design",
+        text: "Design advanced machine learning models for more accurate predictions",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Customized model training and hyperparameter tuning",
+        text: "Tailor model training and fine-tune hyperparameters to your unique needs",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha Comprehensive model validation and testing",
+        text: "Thoroughly validate and test models for robust performance and reliability",
         plan: "standard",
       },
       {
-        text: " Nice Bro haha End-to-end machine learning solution",
+        text: "Provide end-to-end machine learning solutions to meet your goals",
         plan: "premium",
       },
     ],
     duration: "6 weeks",
     type: "AI Development",
-    note: "Data preprocessing, model training, and validation.",
+    note: "Comprehensive data preprocessing, model training, and validation.",
   },
 ];
 

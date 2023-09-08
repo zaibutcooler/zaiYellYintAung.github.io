@@ -39,7 +39,7 @@ if(localStorage.theme === 'light'){
                     <p>Thank you for being a part of this adventure. Connect with me as we script the next chapter of innovation together!</p>
                 </div>
                 
-                <div class="w-full min-h-[400px] rounded-xl border dark:border-border_black p-6 bg-snow_white dark:bg-super_black text-super_black dark:text-snow_white">
+                <div class="w-full min-h-[300px] md:min-h-[400px] rounded-xl border dark:border-border_black p-6 bg-snow_white dark:bg-super_black text-super_black dark:text-snow_white">
                         <div class='w-full grid grid-cols-2 gap-4'>
                             <section class='col-span-1'>
                                 <h2 class='font-semibold text-base mb-2'>Frameworks</h2>

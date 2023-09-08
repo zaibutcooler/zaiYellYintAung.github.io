@@ -42,7 +42,7 @@
           <div class="w-full md:w-2/3 px-0 md:px-6">
             {#each aiDatas as data}
               <button on:click={()=>toggleDetail(data)} class="mb-4 text-left px-3 py-5 md:p-5 md:rounded-lg hover:bg-gray-50 dark:hover:bg-super_black transition-colors group duration-500 ease-in-out cursor-pointer">
-                <p class="dark:text-border_black text-gray-500 mb-4">| In {data.duration}</p>
+                <p class="dark:text-border_black text-gray-500 mb-4">| {data.subTitle}</p>
                 <h1 class="dark:text-snow_white font-semibold mb-3">{data.title}</h1>
                 <p class="text-sm dark:text-border_black text-gray-500 leading-6 mb-3">{data.description}</p>
                 <button class="text-sm font-semibold text-primary">See Details</button>
@@ -62,7 +62,7 @@
             <div class="w-full md:w-2/3 px-0 md:px-6">
               {#each webDatas as data}
                 <button on:click={()=>toggleDetail(data)} class="mb-4 text-left px-3 py-5 md:p-5 md:rounded-lg hover:bg-gray-50 dark:hover:bg-super_black transition-colors group duration-500 ease-in-out cursor-pointer">
-                  <p class="dark:text-border_black text-gray-500 mb-4">| In {data.duration}</p>
+                  <p class="dark:text-border_black text-gray-500 mb-4">| {data.subTitle}</p>
                   <h1 class="dark:text-snow_white font-semibold mb-3">{data.title}</h1>
                   <p class="text-sm dark:text-border_black text-gray-500 leading-6 mb-3">{data.description}</p>
                   <button class="text-sm font-semibold text-primary">See Details</button>
@@ -82,7 +82,7 @@
             <div class="w-full md:w-2/3 px-0 md:px-6">
               {#each mobileDatas as data}
                 <button on:click={()=>toggleDetail(data)} class="mb-4 text-left px-3 py-5 md:p-5 md:rounded-lg hover:bg-gray-50 dark:hover:bg-super_black transition-colors group duration-500 ease-in-out cursor-pointer">
-                  <p class="dark:text-border_black text-gray-500 mb-4">| In {data.duration}</p>
+                  <p class="dark:text-border_black text-gray-500 mb-4">| {data.subTitle}</p>
                   <h1 class="dark:text-snow_white font-semibold mb-3">{data.title}</h1>
                   <p class="text-sm dark:text-border_black text-gray-500 leading-6 mb-3">{data.description}</p>
                   <button class="text-sm font-semibold text-primary">See Details</button>

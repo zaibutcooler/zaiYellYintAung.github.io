@@ -10,7 +10,7 @@ const projectDatas = [
       "Provides tools for tracking and building habits.",
       "Users can maintain a digital diary within the app",
     ],
-
+    logo: "/logos/kioku.png",
     images: [
       {
         url: "/image/kioku/one.png",
@@ -71,6 +71,7 @@ const projectDatas = [
       "Elegant and modern user interface.",
       "Works seamlessly mobile devices",
     ],
+    logo: "/logos/kazeki.png",
     images: [
       {
         url: "/image/kazeki/one.png",
@@ -133,6 +134,7 @@ const projectDatas = [
       "Prioritizes the security of user accounts and data.",
       "Fully mobile responsive and well-designed.",
     ],
+    logo: "/logos/kenkei.png",
     images: [
       {
         url: "/image/kenkei/one.png",
@@ -178,6 +180,7 @@ const projectDatas = [
       "Seamlessly integrates with popular technologies.",
       "Improves efficiency in web data analysis.",
     ],
+    logo: "/logos/kensa.png",
     images: [
       {
         url: "/image/chocolate.jpg.png",
@@ -219,6 +222,7 @@ const projectDatas = [
       "Seamlessly authenticate with Next-Auth.",
       "Improve efficiency in product and food delivery.",
     ],
+    logo: "/logos/haitatsu.png",
     images: [
       {
         url: "/image/chocolate.jpg.png",

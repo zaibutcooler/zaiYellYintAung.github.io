@@ -1,5 +1,6 @@
 <script>
   import Carousel from "../mini/Carousel.svelte";
+  import Logo from "../mini/Logo.svelte";
 
   export let item;
   export let close;
@@ -10,6 +11,7 @@
     close();
     document.body.classList.remove("disable-scrollbar");
   };
+
 
 </script>
 
@@ -24,7 +26,14 @@
     <div class='w-full flex flex-col md:flex-row gap-4 h-[370px] pb-2'>
       
       <div class="block md:hidden w-full">
-        <div class='w-[50px] h-[50px] rounded-full mb-3 dark:bg-white bg-primary text-super_black dark:text-snow_white'></div>
+      
+ 
+        <div class='w-[50px] h-[50px] rounded-full mb-3 p-1.5 bg-super_black dark:bg-border_black text-super_black dark:text-snow_white'>
+          <div class="bg-snow_white  p-1 rounded-full w-full h-full">                        
+              <img src={item.logo} alt={item.logo} />
+          </div>
+          </div>
+
           <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left font-semibold text-base md:text-lg'>{item.name}</h1>
           <p class='text-sm  mb-2 flex-grow text-left whitespace-normal'>{item.desc}</p>
         </div>
@@ -64,7 +73,12 @@
 
       <section class="w-full text-sm md:w-1/2 p-0  dark:border-border_black rounded-md h-full pl-2">
         <div class="hidden md:block">
-        <div class='w-[50px] h-[50px] rounded-full mb-3 dark:bg-white bg-primary text-super_black dark:text-snow_white'></div>
+
+          <div class='w-[50px] h-[50px] rounded-full mb-3 p-1.5 bg-super_black dark:bg-border_black text-super_black dark:text-snow_white'>
+            <div class="bg-snow_white  p-1 rounded-full w-full h-full">                        
+                <img src={item.logo} alt={item.logo} />
+            </div>
+            </div>
           <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left font-semibold text-base md:text-lg'>{item.name}</h1>
           <p class='  mb-2 flex-grow text-left whitespace-normal '>{item.desc}</p>
         </div>

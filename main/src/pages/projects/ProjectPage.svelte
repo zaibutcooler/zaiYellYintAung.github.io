@@ -1,19 +1,17 @@
 <script>
+  import Logo from '../_components/mini/Logo.svelte';
     import projectDatas from './../../lib/projectDatas'
     import ProjectDetail from './../_components/details/ProjectDetail.svelte'
 
     let showDetail = false;
     let currentItem = null
 
-
     const toggleDetail = (item) => {
         currentItem = item
         showDetail = !showDetail; // Simplified toggle logic
         console.log(currentItem,'ct')
         console.log(item,'it')
-
     }
-
 </script>
 
 <div id="skills" class="flex justify-center w-full min-h-screen pt-14">
@@ -31,7 +29,14 @@
         <section class="w-full grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-medium">
             {#each projectDatas as project (project.name)}
                 <button on:click={() => toggleDetail(project)} class="dark:bg-super_black bg-snow_white px-4 py-5 rounded-md border transition-colors group duration-500 ease-in-out dark:border-super_black border-snow dark:hover:border-bg_white hover:border-gray-300 text-bg_black dark:text-bg_white ">
-                    <div class='w-[50px] h-[50px] rounded-full mb-3 dark:bg-white bg-primary text-super_black dark:text-snow_white'></div>
+                   
+                  
+ <div class='w-[50px] h-[50px] rounded-full mb-3 p-1.5 bg-super_black dark:bg-border_black text-super_black dark:text-snow_white'>
+    <div class="bg-snow_white  p-1 rounded-full w-full h-full">                        
+        <img src={project.logo} alt={project.logo} />
+    </div>
+    </div>
+
                     <h1 class='mb-2 dark:group-hover:text-snow_white group-hover:text-super_black text-left'>{project.name}</h1>
                     <p class='text-sm mb-2 flex-grow h-[70px] text-left'>{project.desc}</p>
                     <p class="text-sm text-border_black flex gap-3 items-center group-hover:text-primary dark:group-hover:text-snow_white">See Detail</p>
